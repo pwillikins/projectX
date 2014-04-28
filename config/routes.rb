@@ -4,9 +4,15 @@ Rails.application.routes.draw do
 
   get '/user/new', to: 'user#new'
   
-  post 'user', to: 'user#create'
+  post '/user', to: 'user#create'
 
   get '/user/:id', to: 'user#show'
+
+  get '/user/edit/:id', to: 'user#edit'
+
+  put '/user/:id', to: 'user#update'
+
+  get '/users', to: 'user#show_all'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with 'rake routes'.

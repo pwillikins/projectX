@@ -1,8 +1,10 @@
 <h1>Band Info:</h1>
 
 <dl class="attributes">
-  <dt>Band Name</dt>
+  <dt>Band Name:</dt>
   <dd><%= @user.band_name %></dd>
-  <dt>Tour Info</dt>
+  <dt>Tour Info:</dt>
   <dd><%= @user.tour_info %></dd>
+  <dt></dt>
+  <dd><a href="/user/edit/<%= @user.id %>">Edit</a></dd>
 </dl>

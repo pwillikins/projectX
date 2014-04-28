@@ -1,7 +1,7 @@
 require 'spec_helper'
 
-feature 'User can see homepage' do
-  scenario 'user visits homepage' do
+feature 'User visits homepage' do
+  scenario 'user can register and edit profile' do
     visit '/'
 
     expect(page).to have_content 'ProjectX'
@@ -12,5 +12,12 @@ feature 'User can see homepage' do
     click_on 'Create Profile'
     expect(page).to have_content 'Dr Dog'
     expect(page).to have_content 'Summer Tour 2014'
+
+    click_link 'Edit'
+    fill_in 'band_name', with: 'fbs'
+    fill_in 'tour_info', with: 'summer'
+    click_on 'Update'
+    expect(page).to have_content 'fbs'
+    expect(page).to have_content 'summer'
   end
 end

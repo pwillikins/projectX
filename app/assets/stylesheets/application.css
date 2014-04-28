@@ -41,9 +41,9 @@ header {
     font-weight: bold;
 }
 
-.attributes > dt:after {
-    content: ':';
-}
+/*.attributes > dt:after {*/
+    /*content: ':';*/
+/*}*/
 
 .attributes > dd {
     float: left;

@@ -1,0 +1,10 @@
+<h1>List of Bands</h1>
+
+<dl class="attributes">
+  <% @user.each do |user| %>
+  <dt>Band Name:</dt>
+  <dd><%= user.band_name %></dd>
+  <dt>Tour Info:</dt>
+  <dd><%= user.tour_info %></dd>
+    <% end %>
+</dl>
