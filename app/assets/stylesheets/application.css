@@ -30,6 +30,7 @@ header {
 
 .form-button {
     margin-left: 105px;
+
 }
 
 .attributes > dt {
@@ -54,3 +55,12 @@ header {
     font-size: 1.5em;
     margin-top: 1em;
 }
+
+/*#button{*/
+    /*padding: 5px 15px;*/
+    /*border: 1px solid #ccc;*/
+    /*background: #fff;*/
+    /*box-shadow: 5px 4px 3px 1px #444;*/
+    /*font-size: 14px;*/
+    /*text-decoration:none;*/
+/*}*/
