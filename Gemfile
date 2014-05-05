@@ -5,7 +5,12 @@ group :test, :development do
   gem 'capybara', '~> 2.2.1'
 end
 
-gem 'rails_12factor', '~> 0.0.2'
+ruby '2.1.1'
+
+group :production do
+  gem 'rails_12factor', '~> 0.0.2'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use postgresql as the database for Active Record
