@@ -4,63 +4,62 @@
  */
 
 body {
-    background-image: asset-url("/assets/concert.jpeg");
-    background-size: 100%;
+  background-image: asset-url("concert.jpeg");
+  background-size: 100%;
 }
 
 header {
-    background: #333;
+  background: #333;
 }
 
 .container-inner {
-    margin: auto;
-    width: 960px;
-    padding: 1em;
-    font-color: #FFFFFF;
+  margin: auto;
+  width: 960px;
+  padding: 1em;
 }
 
 .attributes {
-    overflow: auto;
+  overflow: auto;
 }
 
 .form-label {
-    display: inline-block;
-    width: 100px;
+  display: inline-block;
+  width: 100px;
 }
 
 .form-button {
-    margin-left: 105px;
+  margin-left: 105px;
 
 }
 
 .attributes > dt {
-    clear: left;
-    display: block;
-    float: left;
-    width: 100px;
-    padding-bottom: 1em;
-    font-weight: bold;
+  clear: left;
+  display: block;
+  float: left;
+  width: 100px;
+  padding-bottom: 1em;
+  font-weight: bold;
 }
 
 /*.attributes > dt:after {*/
-    /*content: ':';*/
+/*content: ':';*/
 /*}*/
 
 .attributes > dd {
-    float: left;
+  float: left;
 }
 
 .actions {
-    float: right;
-    font-size: 1.5em;
-    margin-top: 1em;
+  float: right;
+  font-size: 1.5em;
+  margin-top: 1em;
 }
 
 /*#button{*/
-    /*padding: 5px 15px;*/
-    /*border: 1px solid #ccc;*/
-    /*background: #fff;*/
-    /*box-shadow: 5px 4px 3px 1px #444;*/
-    /*font-size: 14px;*/
-    /*text-decoration:none;*/
+/*padding: 5px 15px;*/
+/*border: 1px solid #ccc;*/
+/*background: #fff;*/
+/*box-shadow: 5px 4px 3px 1px #444;*/
+/*font-size: 14px;*/
+/*text-decoration:none;*/
 /*}*/
