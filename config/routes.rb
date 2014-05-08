@@ -2,17 +2,17 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  get '/user/new', to: 'user#new'
+  get '/gigs/new', to: 'gigs#new'
   
-  post '/user', to: 'user#create'
+  post '/gigs', to: 'gigs#create'
 
-  get '/user/:id', to: 'user#show'
+  get '/gigs/:id', to: 'gigs#show'
 
-  get '/user/edit/:id', to: 'user#edit'
+  get '/gigs/edit/:id', to: 'gigs#edit'
 
-  put '/user/:id', to: 'user#update'
+  put '/gigs/:id', to: 'gigs#update'
 
-  get '/users', to: 'user#show_all'
+  get '/users', to: 'gigs#index'
 
 
 
