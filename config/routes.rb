@@ -2,22 +2,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  get '/gigs/new', to: 'gigs#new'
-  
-  post '/gigs', to: 'gigs#create'
-
-  get '/gigs/:id', to: 'gigs#show'
-
-  get '/gigs/edit/:id', to: 'gigs#edit'
-
-  put '/gigs/:id', to: 'gigs#update'
-
-  get '/users', to: 'gigs#index'
-
-
-
-
-
+  get '/gigs', to: 'gigs#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with 'rake routes'.

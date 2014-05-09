@@ -3,9 +3,12 @@ source 'https://rubygems.org'
 group :test, :development do
   gem 'rspec-rails', '~> 2.14.2'
   gem 'capybara', '~> 2.2.1'
+  gem 'dotenv', '~> 0.11.1'
+  gem 'faraday', '~> 0.9.0'
 end
 
 ruby '2.1.1'
+
 
 group :production do
   gem 'rails_12factor', '~> 0.0.2'
