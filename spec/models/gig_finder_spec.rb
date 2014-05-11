@@ -20,6 +20,3 @@ describe GigFinder do
 end
 
 
-# expected_gigs = [
-#   {id: 19088609, event_name: 'Wakarusa Music & Art Festival 2014', start_date: '2014-06-05'}
-# ]
