@@ -12,12 +12,12 @@ class GigFinder
   end
 
   def find_events(artist_id)
-    info = []
+    info = {}
     response = Faraday.get "http://api.songkick.com/api/3.0/artists/#{artist_id}/calendar.json?apikey=12XsVy8nEO6w6CqL"
     artist_event_info = JSON.parse(response.body)
 
     artist_event_info["resultsPage"]["results"]["event"].each do |x|
-      info << x["venue"]["displayName"]
+      info["venue"]["displayName"] = ["venue"]["metroArea"]["displayName"]
     end
     info
   end
