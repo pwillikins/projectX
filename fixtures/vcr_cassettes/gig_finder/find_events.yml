@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 18 May 2014 00:09:40 GMT
+      - Sun, 18 May 2014 05:28:13 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -27,7 +27,7 @@ http_interactions:
       Cache-Control:
       - private, max-age=3600
       Expires:
-      - Sun, 18 May 2014 01:09:40 GMT
+      - Sun, 18 May 2014 06:28:13 GMT
       Vary:
       - Accept-Encoding
       Connection:
@@ -49,7 +49,7 @@ http_interactions:
         MONEY)","onTourUntil":null,"uri":"http://www.songkick.com/artists/6804484-phillip-maloneys-armada-featuring-herman-menderchuck-aka-big-ballin-city-streets-cash-money-hustlin-flow-dog-1800-featuring-dr-s-pronounced-fort-no-mo-money?utm_source=27408&utm_medium=partner","id":6804484,"identifier":[]},{"onTourUntil":null,"displayName":"88.1
         Kdhx Welcomes Dr. Dog","identifier":[],"uri":"http://www.songkick.com/artists/7442444-881-kdhx-welcomes-dr-dog?utm_source=27408&utm_medium=partner","id":7442444}]},"perPage":50,"page":1,"totalEntries":11}}'
     http_version: 
-  recorded_at: Sun, 18 May 2014 00:09:39 GMT
+  recorded_at: Sun, 18 May 2014 05:28:14 GMT
 - request:
     method: get
     uri: http://api.songkick.com/api/3.0/artists/42687/calendar.json?apikey=12XsVy8nEO6w6CqL
@@ -69,7 +69,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 18 May 2014 00:09:40 GMT
+      - Sun, 18 May 2014 05:28:14 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -77,7 +77,7 @@ http_interactions:
       Cache-Control:
       - private, max-age=3600
       Expires:
-      - Sun, 18 May 2014 01:09:40 GMT
+      - Sun, 18 May 2014 06:28:14 GMT
       Vary:
       - Accept-Encoding
       Connection:
@@ -4636,7 +4636,7 @@ http_interactions:
         UmVzdHJpY3Rpb24iOm51bGx9XX0sInBlclBhZ2UiOjUwLCJwYWdlIjoxLCJ0
         b3RhbEVudHJpZXMiOjEzfX0=
     http_version: 
-  recorded_at: Sun, 18 May 2014 00:09:40 GMT
+  recorded_at: Sun, 18 May 2014 05:28:14 GMT
 - request:
     method: get
     uri: http://ws.audioscrobbler.com/2.0/?api_key=b20186bc6bd9756f2777dd5f8dc4f4f5&artist=Dr%20Dog&format=json&method=artist.getinfo
@@ -4656,11 +4656,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 18 May 2014 00:09:41 GMT
+      - Sun, 18 May 2014 05:28:15 GMT
       Server:
       - Apache/2.2.22 (Unix)
       X-Web-Node:
-      - www169
+      - www180
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -4670,7 +4670,7 @@ http_interactions:
       Cache-Control:
       - max-age=86400
       Expires:
-      - Mon, 19 May 2014 00:09:41 GMT
+      - Mon, 19 May 2014 05:28:15 GMT
       Vary:
       - Accept-Encoding
       Content-Length:
@@ -4684,5 +4684,55 @@ http_interactions:
       string: |
         {"artist":{"name":"dr dog","mbid":"","url":"http:\/\/www.last.fm\/music\/+noredirect\/dr+dog","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/4392419.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/4392419.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/4392419.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/4392419.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/4392419\/dr+dog+Keep+stats+clean.jpg","size":"mega"}],"streamable":"0","ontour":"0","stats":{"listeners":"7477","playcount":"49400"},"similar":"\n\t  ","tags":{"tag":[{"name":"indie","url":"http:\/\/www.last.fm\/tag\/indie"},{"name":"alternative","url":"http:\/\/www.last.fm\/tag\/alternative"}]},"bio":{"links":{"link":{"#text":"","rel":"original","href":"http:\/\/www.last.fm\/music\/+noredirect\/dr+dog\/+wiki"}},"published":"Sat, 30 Sep 2006 22:10:43 +0000","summary":"\n                This is an incorrect tag for <a href=\"http:\/\/www.last.fm\/music\/Dr.+Dog\" class=\"bbcode_artist\">Dr. Dog<\/a>.  If this non-artist appears in your charts, do last.fm and yourself a favor. Fix your artist tags.\n\n        <a href=\"http:\/\/www.last.fm\/music\/+noredirect\/dr+dog\">Read more about dr dog on Last.fm<\/a>.\n    \n    ","content":"\n                    This is an incorrect tag for <a href=\"http:\/\/www.last.fm\/music\/Dr.+Dog\" class=\"bbcode_artist\">Dr. Dog<\/a>.  If this non-artist appears in your charts, do last.fm and yourself a favor. Fix your artist tags.\n\n        <a href=\"http:\/\/www.last.fm\/music\/+noredirect\/dr+dog\">Read more about dr dog on Last.fm<\/a>.\n    \n    \nUser-contributed text is available under the Creative Commons By-SA License and may also be available under the GNU FDL.\n    "}}}
     http_version: 
-  recorded_at: Sun, 18 May 2014 00:09:40 GMT
+  recorded_at: Sun, 18 May 2014 05:28:15 GMT
+- request:
+    method: get
+    uri: http://api.songkick.com/api/3.0/search/artists.json?apikey=12XsVy8nEO6w6CqL&query=Dr%20Dog
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 05:28:16 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - private, max-age=3600
+      Expires:
+      - Sun, 18 May 2014 06:28:16 GMT
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"resultsPage":{"status":"ok","results":{"artist":[{"displayName":"Dr.
+        Dog","identifier":[{"mbid":"e9aed5e5-ed35-4244-872e-194862290295","eventsHref":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295/calendar.json","href":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295.json","setlistsHref":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295/setlists.json"}],"uri":"http://www.songkick.com/artists/42687-dr-dog?utm_source=27408&utm_medium=partner","onTourUntil":"2014-08-29","id":42687},{"displayName":"Dr.Dog","onTourUntil":null,"uri":"http://www.songkick.com/artists/3182151-drdog?utm_source=27408&utm_medium=partner","identifier":[],"id":3182151},{"identifier":[],"uri":"http://www.songkick.com/artists/3273481-dr-dallas-dog?utm_source=27408&utm_medium=partner","onTourUntil":null,"displayName":"Dr.
+        Dallas Dog","id":3273481},{"identifier":[],"uri":"http://www.songkick.com/artists/3381811-scott-mcmicken-of-dr-dog?utm_source=27408&utm_medium=partner","onTourUntil":null,"displayName":"Scott
+        Mcmicken of Dr. Dog","id":3381811},{"identifier":[],"uri":"http://www.songkick.com/artists/3300301-dr-dog-and-the-mother-hips?utm_source=27408&utm_medium=partner","onTourUntil":null,"displayName":"Dr.
+        Dog & the Mother Hips","id":3300301},{"onTourUntil":"2014-06-08","identifier":[],"uri":"http://www.songkick.com/artists/7864009-dr-dog-the-vogue?utm_source=27408&utm_medium=partner","displayName":"Dr.
+        Dog @ the Vogue","id":7864009},{"identifier":[],"uri":"http://www.songkick.com/artists/579810-mother-truckers-dr-dog-and-the-high-strung?utm_source=27408&utm_medium=partner","onTourUntil":null,"displayName":"The
+        Mother Truckers Dr Dog And The High Strung","id":579810},{"displayName":"Four
+        Headed Dog (Peter Pan Speedrock & Dr. NO)","onTourUntil":null,"identifier":[],"uri":"http://www.songkick.com/artists/7147394-four-headed-dog-peter-pan-speedrock-and-dr-no?utm_source=27408&utm_medium=partner","id":7147394},{"displayName":"Phillip
+        Maloney''$ Armada Featuring Herman Menderchuck AKA Big Ballin'' City $treet$
+        Ca$h Money Hu$tlin'' Flow Dog 1800 Featuring Dr. $$$ (Pronounced FORT NO MO
+        MONEY)","onTourUntil":null,"uri":"http://www.songkick.com/artists/6804484-phillip-maloneys-armada-featuring-herman-menderchuck-aka-big-ballin-city-streets-cash-money-hustlin-flow-dog-1800-featuring-dr-s-pronounced-fort-no-mo-money?utm_source=27408&utm_medium=partner","id":6804484,"identifier":[]},{"onTourUntil":null,"displayName":"88.1
+        Kdhx Welcomes Dr. Dog","identifier":[],"uri":"http://www.songkick.com/artists/7442444-881-kdhx-welcomes-dr-dog?utm_source=27408&utm_medium=partner","id":7442444}]},"perPage":50,"page":1,"totalEntries":11}}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 05:28:16 GMT
 recorded_with: VCR 2.9.0

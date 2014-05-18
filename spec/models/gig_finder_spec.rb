@@ -32,4 +32,14 @@ describe GigFinder do
       expect(finder.find_image("311")).to include expected_image
     end
   end
+
+  it "returns the name of the artist" do
+    VCR.use_cassette("gig_finder/find_name") do
+      finder = GigFinder.new
+
+      expected_name = "Skrillex"
+
+      expect(finder.find_artist_name("skrillex")).to eq expected_name
+    end
+  end
 end

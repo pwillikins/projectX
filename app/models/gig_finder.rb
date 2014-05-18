@@ -36,4 +36,15 @@ class GigFinder
     end
     images[0]
   end
+
+  def find_artist_name(artist)
+    artist_name = []
+    response = Faraday.get "http://api.songkick.com/api/3.0/search/artists.json?query=#{artist}&apikey=12XsVy8nEO6w6CqL"
+    json_data = JSON.parse(response.body)
+
+    json_data["resultsPage"]["results"]["artist"].select do |name|
+      artist_name << name["displayName"]
+    end
+    artist_name.first
+  end
 end
