@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ws.audioscrobbler.com/2.0/?api_key=b20186bc6bd9756f2777dd5f8dc4f4f5&artist=311&format=json&method=artist.getinfo
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 00:09:41 GMT
+      Server:
+      - Apache/2.2.22 (Unix)
+      X-Web-Node:
+      - www219
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - POST, GET, OPTIONS
+      Access-Control-Max-Age:
+      - '86400'
+      Cache-Control:
+      - max-age=86400
+      Expires:
+      - Mon, 19 May 2014 00:09:41 GMT
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '1212'
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8;
+    body:
+      encoding: UTF-8
+      string: |
+        {"artist":{"name":"311","mbid":"bf600e2b-dc2d-4839-a1be-6ebef4087cd0","url":"http:\/\/www.last.fm\/music\/311","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/35216679.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/35216679.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/35216679.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/35216679.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/35216679\/311.jpg","size":"mega"}],"streamable":"0","ontour":"1","stats":{"listeners":"921517","playcount":"19517812"},"similar":{"artist":[{"name":"The Urge","url":"http:\/\/www.last.fm\/music\/The+Urge","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/93331237.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/93331237.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/93331237.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/93331237.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/93331237\/The+Urge+1273854_623298904359677_176534.jpg","size":"mega"}]},{"name":"Pepper","url":"http:\/\/www.last.fm\/music\/Pepper","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/90069345.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/90069345.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/90069345.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/90069345.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/90069345\/Pepper++NEW+PROMO+2.jpg","size":"mega"}]},{"name":"Slightly Stoopid","url":"http:\/\/www.last.fm\/music\/Slightly+Stoopid","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/49334623.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/49334623.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/49334623.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/49334623.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/49334623\/Slightly+Stoopid+SlightlyStoopidSkull2.jpg","size":"mega"}]},{"name":"Ballyhoo!","url":"http:\/\/www.last.fm\/music\/Ballyhoo!","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/76812466.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/76812466.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/76812466.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/76812466.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/76812466\/Ballyhoo+PressSummer2011.jpg","size":"mega"}]},{"name":"The Expendables","url":"http:\/\/www.last.fm\/music\/The+Expendables","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/259483.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/259483.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/259483.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/259483.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/259483\/The+Expendables.jpg","size":"mega"}]}]},"tags":{"tag":[{"name":"alternative","url":"http:\/\/www.last.fm\/tag\/alternative"},{"name":"rock","url":"http:\/\/www.last.fm\/tag\/rock"},{"name":"alternative rock","url":"http:\/\/www.last.fm\/tag\/alternative%20rock"},{"name":"reggae","url":"http:\/\/www.last.fm\/tag\/reggae"},{"name":"ska","url":"http:\/\/www.last.fm\/tag\/ska"}]},"bio":{"links":{"link":{"#text":"","rel":"original","href":"http:\/\/www.last.fm\/music\/311\/+wiki"}},"published":"Sun, 10 Jun 2012 17:30:35 +0000","summary":"\n                311 was formed in 1990 in Omaha, Nebraska, United States by singer\/guitarist Nick Hexum, singer S.A. Martinez, guitarist Tim Mahoney, drummer Chad Sexton and bassist P-Nut. The band now resides in Los Angeles, California.\n  \n 311 mix rock, rap, reggae and funk into their own unique sound. After years of consistent touring, 311 have developed a reputation as one of the hardest working, most influential and most entertaining live bands in the U.S.\n  \n \n\n        <a href=\"http:\/\/www.last.fm\/music\/311\">Read more about 311 on Last.fm<\/a>.\n    \n    ","content":"\n                    311 was formed in 1990 in Omaha, Nebraska, United States by singer\/guitarist Nick Hexum, singer S.A. Martinez, guitarist Tim Mahoney, drummer Chad Sexton and bassist P-Nut. The band now resides in Los Angeles, California.\n  \n 311 mix rock, rap, reggae and funk into their own unique sound. After years of consistent touring, 311 have developed a reputation as one of the hardest working, most influential and most entertaining live bands in the U.S.\n  \n \n\n        <a href=\"http:\/\/www.last.fm\/music\/311\">Read more about 311 on Last.fm<\/a>.\n    \n    \nUser-contributed text is available under the Creative Commons By-SA License and may also be available under the GNU FDL.\n    ","placeformed":"Omaha, Nebraska, United States","yearformed":"1990","formationlist":{"formation":{"yearfrom":"1990","yearto":""}}}}}
+    http_version: 
+  recorded_at: Sun, 18 May 2014 00:09:41 GMT
+recorded_with: VCR 2.9.0

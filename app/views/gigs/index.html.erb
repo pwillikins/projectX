@@ -1,8 +1,11 @@
-<h1>Band Info</h1>
+<h1 id="band_info">Band Info</h1>
 
-<% @gigs.each do |venue| %>
-  <ul>
-    <li><%= venue %></li>
-  </ul>
-<% end %>
+<%= image_tag @image_url %>
 
+<div class="container">
+  <% @gigs.each do |venue, location| %>
+    <ul>
+      <li><%= venue %>, <%= location %></li>
+    </ul>
+  <% end %>
+</div>

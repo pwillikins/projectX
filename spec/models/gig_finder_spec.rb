@@ -2,21 +2,34 @@ require 'spec_helper'
 
 describe GigFinder do
   it "can find artist id" do
-    finder = GigFinder.new
+    VCR.use_cassette("gig_finder/find_artist_id") do
+      finder = GigFinder.new
 
-    expected_artist_id = 42687
+      expected_artist_id = 42687
 
-    expect(finder.find_artist_id('Dr_Dog')).to eq expected_artist_id
+      expect(finder.find_artist_id('Dr_Dog')).to eq expected_artist_id
+    end
   end
 
   it "can search for artist events using an artist id" do
-    finder = GigFinder.new
+    VCR.use_cassette("gig_finder/find_events") do
 
-    expected_artist_events = "Hot August Music Festival"
+      finder = GigFinder.new
 
-    expect(finder.find_events(42687)).to include expected_artist_events
+      expected_artist_events = {"Hot August Music Festival" => "Cockeysville, MD, US"}
 
+      expect(finder.find_events(42687)).to include expected_artist_events
+    end
+  end
+
+  it "can return album artwork by artist" do
+    VCR.use_cassette("gig_finder/find_image") do
+      finder = GigFinder.new
+
+      expected_image = "http://userserve-ak.last.fm/serve/500/35216679/311.jpg"
+
+
+      expect(finder.find_image("311")).to include expected_image
+    end
   end
 end
-
-
