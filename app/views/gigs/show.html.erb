@@ -1,3 +1,12 @@
-<h1>Band Info:</h1>
+<h1 style="color:#f7644d">Vote for the songs you want to hear!!</h1>
 
+<ul>
+<li><h1 style="color:#f7644d"><%= @venue %>, <%= @location %></h1></li>
+</ul>
+
+<% @song_list.each do |x| %>
+  <ul>
+    <li><%= x %></li>
+  </ul>
+<% end %>
 

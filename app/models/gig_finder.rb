@@ -47,4 +47,27 @@ class GigFinder
     end
     artist_name.first
   end
+
+  def find_songs_by_artist(artist)
+    songs = []
+    response = Faraday.get "http://ws.spotify.com/search/1/track.json?q=#{artist}"
+    song_data = JSON.parse(response.body)
+
+    song_data["tracks"].select do |song|
+      songs << song["name"]
+    end
+    songs
+  end
 end
+
+
+# def find_event_id(artist_id)
+#   event_id_list = []
+#   response = Faraday.get "http://api.songkick.com/api/3.0/artists/#{artist_id}/calendar.json?apikey=12XsVy8nEO6w6CqL"
+#   event_data = JSON.parse(response.body)
+#
+#   event_data["resultsPage"]["results"]["event"].each do |a|
+#     event_id_list << a["id"]
+#   end
+#   event_id_list
+# end

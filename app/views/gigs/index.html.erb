@@ -1,12 +1,14 @@
-<!--<h1 id="band_info"><%= @artist_name %></h1>-->
-<%= @artist_name %>
+<h1 id="band_info"><%= @display_name %></h1>
 
 <%= image_tag @image_url %>
 
 <div class="container">
   <% @gigs.each do |venue, location| %>
     <ul>
-      <li><%= venue %>, <%= location %></li>
+      <li><%= venue %>, <%= location %> | <%= link_to "Rock Your Vote!",
+                                                      gigs_show_path(venue: venue, location: location, artist: @display_name),
+                                                      method: :post,
+                                                      :style => "color:white" %></li>
     </ul>
   <% end %>
 </div>

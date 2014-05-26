@@ -7,13 +7,12 @@ describe GigFinder do
 
       expected_artist_id = 42687
 
-      expect(finder.find_artist_id('Dr_Dog')).to eq expected_artist_id
+      expect(finder.find_artist_id("Dr_Dog")).to eq expected_artist_id
     end
   end
 
   it "can search for artist events using an artist id" do
-    VCR.use_cassette("gig_finder/find_events") do
-
+    VCR.use_cassette("gig_finder") do
       finder = GigFinder.new
 
       expected_artist_events = {"Hot August Music Festival" => "Cockeysville, MD, US"}
@@ -40,6 +39,16 @@ describe GigFinder do
       expected_name = "Skrillex"
 
       expect(finder.find_artist_name("skrillex")).to eq expected_name
+    end
+  end
+
+  it "returns a list of the artists songs" do
+    VCR.use_cassette("song_finder/find_songs") do
+      finder = GigFinder.new
+
+      expected = "Lonesome"
+
+      expect(finder.find_songs_by_artist("dr dog")).to include expected
     end
   end
 end
