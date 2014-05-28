@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 26 May 2014 00:06:33 GMT
+      - Wed, 28 May 2014 20:45:35 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -27,7 +27,7 @@ http_interactions:
       Cache-Control:
       - private, max-age=3600
       Expires:
-      - Mon, 26 May 2014 01:06:33 GMT
+      - Wed, 28 May 2014 21:45:35 GMT
       Vary:
       - Accept-Encoding
       Connection:
@@ -154,7 +154,7 @@ http_interactions:
         bGljIC0gUC1mdW5rIEFsbCBTdGFycyIsImlkIjozODI4Njh9XX0sInBlclBh
         Z2UiOjUwLCJwYWdlIjoxLCJ0b3RhbEVudHJpZXMiOjE5fX0=
     http_version: 
-  recorded_at: Mon, 26 May 2014 00:06:33 GMT
+  recorded_at: Wed, 28 May 2014 20:45:35 GMT
 - request:
     method: get
     uri: http://api.songkick.com/api/3.0/search/artists.json?apikey=12XsVy8nEO6w6CqL&query=Parliament%20Funkadelic
@@ -174,7 +174,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 26 May 2014 00:06:34 GMT
+      - Wed, 28 May 2014 20:45:35 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -182,7 +182,7 @@ http_interactions:
       Cache-Control:
       - private, max-age=3600
       Expires:
-      - Mon, 26 May 2014 01:06:34 GMT
+      - Wed, 28 May 2014 21:45:35 GMT
       Vary:
       - Accept-Encoding
       Connection:
@@ -309,7 +309,7 @@ http_interactions:
         bGljIC0gUC1mdW5rIEFsbCBTdGFycyIsImlkIjozODI4Njh9XX0sInBlclBh
         Z2UiOjUwLCJwYWdlIjoxLCJ0b3RhbEVudHJpZXMiOjE5fX0=
     http_version: 
-  recorded_at: Mon, 26 May 2014 00:06:33 GMT
+  recorded_at: Wed, 28 May 2014 20:45:36 GMT
 - request:
     method: get
     uri: http://api.songkick.com/api/3.0/artists/3608151/calendar.json?apikey=12XsVy8nEO6w6CqL
@@ -329,7 +329,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 26 May 2014 00:06:34 GMT
+      - Wed, 28 May 2014 20:45:36 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -337,7 +337,7 @@ http_interactions:
       Cache-Control:
       - private, max-age=3600
       Expires:
-      - Mon, 26 May 2014 01:06:34 GMT
+      - Wed, 28 May 2014 21:45:36 GMT
       Vary:
       - Accept-Encoding
       Connection:
@@ -353,7 +353,7 @@ http_interactions:
         Funkadelic","id":40148603,"artist":{"displayName":"Parliament Funkadelic","identifier":[{"mbid":"7a0ae10d-c51f-434a-9d5a-551d2ae93a9d","href":"http://api.songkick.com/api/3.0/artists/mbid:7a0ae10d-c51f-434a-9d5a-551d2ae93a9d.json"}],"uri":"http://www.songkick.com/artists/3608151-parliament-funkadelic?utm_source=27408&utm_medium=partner","id":3608151}},{"billingIndex":3,"billing":"support","displayName":"Wonderlush","id":40148608,"artist":{"displayName":"Wonderlush","identifier":[],"uri":"http://www.songkick.com/artists/3311776-wonderlush?utm_source=27408&utm_medium=partner","id":3311776}}],"venue":{"displayName":"The
         Forum","lat":51.552046,"lng":-0.141771,"uri":"http://www.songkick.com/venues/37414-forum?utm_source=27408&utm_medium=partner","metroArea":{"displayName":"London","country":{"displayName":"UK"},"uri":"http://www.songkick.com/metro_areas/24426-uk-london?utm_source=27408&utm_medium=partner","id":24426},"id":37414}}]},"perPage":50,"page":1,"totalEntries":1}}'
     http_version: 
-  recorded_at: Mon, 26 May 2014 00:06:34 GMT
+  recorded_at: Wed, 28 May 2014 20:45:36 GMT
 - request:
     method: get
     uri: http://ws.audioscrobbler.com/2.0/?api_key=b20186bc6bd9756f2777dd5f8dc4f4f5&artist=Parliament%20Funkadelic&format=json&method=artist.getinfo
@@ -373,11 +373,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 26 May 2014 00:06:35 GMT
+      - Wed, 28 May 2014 20:45:37 GMT
       Server:
       - Apache/2.2.22 (Unix)
       X-Web-Node:
-      - www211
+      - www212
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -387,11 +387,11 @@ http_interactions:
       Cache-Control:
       - max-age=86400
       Expires:
-      - Tue, 27 May 2014 00:06:35 GMT
+      - Thu, 29 May 2014 20:45:37 GMT
       Vary:
       - Accept-Encoding
       Content-Length:
-      - '1118'
+      - '1133'
       Connection:
       - close
       Content-Type:
@@ -399,9 +399,9 @@ http_interactions:
     body:
       encoding: UTF-8
       string: |
-        {"artist":{"name":"Parliament Funkadelic","mbid":"","url":"http:\/\/www.last.fm\/music\/Parliament+Funkadelic","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/178408.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/178408.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/178408.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/178408.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/178408\/Parliament+Funkadelic.jpg","size":"mega"}],"streamable":"0","ontour":"0","stats":{"listeners":"7636","playcount":"62369"},"similar":{"artist":[{"name":"Funkadelic","url":"http:\/\/www.last.fm\/music\/Funkadelic","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/63029835.png","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/63029835.png","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/63029835.png","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/63029835.png","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/63029835\/Funkadelic.png","size":"mega"}]},{"name":"Parliament","url":"http:\/\/www.last.fm\/music\/Parliament","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/72146518.png","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/72146518.png","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/72146518.png","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/72146518.png","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/72146518\/Parliament+fnkdlc.png","size":"mega"}]},{"name":"The Brides of Funkenstein","url":"http:\/\/www.last.fm\/music\/The+Brides+of+Funkenstein","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/54536241.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/54536241.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/54536241.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/54536241.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/54536241\/The+Brides+of+Funkenstein+brides.jpg","size":"mega"}]},{"name":"Bootsy Collins","url":"http:\/\/www.last.fm\/music\/Bootsy+Collins","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/26574491.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/26574491.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/26574491.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/26574491.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/26574491\/Bootsy+Collins.jpg","size":"mega"}]},{"name":"Revi Roza","url":"http:\/\/www.last.fm\/music\/Revi+Roza","image":[{"#text":"","size":"small"},{"#text":"","size":"medium"},{"#text":"","size":"large"},{"#text":"","size":"extralarge"},{"#text":"","size":"mega"}]}]},"tags":{"tag":[{"name":"funk","url":"http:\/\/www.last.fm\/tag\/funk"},{"name":"soul","url":"http:\/\/www.last.fm\/tag\/soul"},{"name":"p-funk","url":"http:\/\/www.last.fm\/tag\/p-funk"},{"name":"psychedelic rock","url":"http:\/\/www.last.fm\/tag\/psychedelic%20rock"},{"name":"reggae","url":"http:\/\/www.last.fm\/tag\/reggae"}]},"bio":{"links":{"link":{"#text":"","rel":"original","href":"http:\/\/www.last.fm\/music\/Parliament+Funkadelic\/+wiki"}},"published":"Thu, 31 Jan 2008 17:31:21 +0000","summary":"\n                Parliament-Funkadelic is a Funk music collective headed by George Clinton, that specialized in the style of music known as P Funk and performed under the names Parliament and Funkadelic (two bands consisting of the same members, recording for different labels), but also in a score of offshoot groups and solo ventures. Recording under myriad names, this group had thirteen Top Ten hits in the U.S. R&amp;B music charts between 1967 and 1983, including six number one hits in the R&amp;B Charts. They were elected into the Rock and Roll Hall of Fame in 1997.\n\n        <a href=\"http:\/\/www.last.fm\/music\/Parliament+Funkadelic\">Read more about Parliament Funkadelic on Last.fm<\/a>.\n    \n    ","content":"\n                    Parliament-Funkadelic is a Funk music collective headed by George Clinton, that specialized in the style of music known as P Funk and performed under the names Parliament and Funkadelic (two bands consisting of the same members, recording for different labels), but also in a score of offshoot groups and solo ventures. Recording under myriad names, this group had thirteen Top Ten hits in the U.S. R&amp;B music charts between 1967 and 1983, including six number one hits in the R&amp;B Charts. They were elected into the Rock and Roll Hall of Fame in 1997.\n\n        <a href=\"http:\/\/www.last.fm\/music\/Parliament+Funkadelic\">Read more about Parliament Funkadelic on Last.fm<\/a>.\n    \n    \nUser-contributed text is available under the Creative Commons By-SA License and may also be available under the GNU FDL.\n    "}}}
+        {"artist":{"name":"Parliament Funkadelic","mbid":"","url":"http:\/\/www.last.fm\/music\/Parliament+Funkadelic","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/178408.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/178408.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/178408.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/178408.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/178408\/Parliament+Funkadelic.jpg","size":"mega"}],"streamable":"0","ontour":"0","stats":{"listeners":"7643","playcount":"62526"},"similar":{"artist":[{"name":"Funkadelic","url":"http:\/\/www.last.fm\/music\/Funkadelic","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/63029835.png","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/63029835.png","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/63029835.png","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/63029835.png","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/500\/63029835\/Funkadelic.png","size":"mega"}]},{"name":"Parliament","url":"http:\/\/www.last.fm\/music\/Parliament","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/72146518.png","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/72146518.png","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/72146518.png","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/72146518.png","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/72146518\/Parliament+fnkdlc.png","size":"mega"}]},{"name":"The Brides of Funkenstein","url":"http:\/\/www.last.fm\/music\/The+Brides+of+Funkenstein","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/54536241.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/54536241.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/54536241.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/54536241.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/54536241\/The+Brides+of+Funkenstein+brides.jpg","size":"mega"}]},{"name":"George Clinton","url":"http:\/\/www.last.fm\/music\/George+Clinton","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/36179449.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/36179449.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/36179449.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/36179449.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/36179449\/George+Clinton+GC.jpg","size":"mega"}]},{"name":"Bootsy Collins","url":"http:\/\/www.last.fm\/music\/Bootsy+Collins","image":[{"#text":"http:\/\/userserve-ak.last.fm\/serve\/34\/26574491.jpg","size":"small"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/64\/26574491.jpg","size":"medium"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/126\/26574491.jpg","size":"large"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/252\/26574491.jpg","size":"extralarge"},{"#text":"http:\/\/userserve-ak.last.fm\/serve\/_\/26574491\/Bootsy+Collins.jpg","size":"mega"}]}]},"tags":{"tag":[{"name":"funk","url":"http:\/\/www.last.fm\/tag\/funk"},{"name":"soul","url":"http:\/\/www.last.fm\/tag\/soul"},{"name":"p-funk","url":"http:\/\/www.last.fm\/tag\/p-funk"},{"name":"psychedelic rock","url":"http:\/\/www.last.fm\/tag\/psychedelic%20rock"},{"name":"reggae","url":"http:\/\/www.last.fm\/tag\/reggae"}]},"bio":{"links":{"link":{"#text":"","rel":"original","href":"http:\/\/www.last.fm\/music\/Parliament+Funkadelic\/+wiki"}},"published":"Thu, 31 Jan 2008 17:31:21 +0000","summary":"\n                Parliament-Funkadelic is a Funk music collective headed by George Clinton, that specialized in the style of music known as P Funk and performed under the names Parliament and Funkadelic (two bands consisting of the same members, recording for different labels), but also in a score of offshoot groups and solo ventures. Recording under myriad names, this group had thirteen Top Ten hits in the U.S. R&amp;B music charts between 1967 and 1983, including six number one hits in the R&amp;B Charts. They were elected into the Rock and Roll Hall of Fame in 1997.\n\n        <a href=\"http:\/\/www.last.fm\/music\/Parliament+Funkadelic\">Read more about Parliament Funkadelic on Last.fm<\/a>.\n    \n    ","content":"\n                    Parliament-Funkadelic is a Funk music collective headed by George Clinton, that specialized in the style of music known as P Funk and performed under the names Parliament and Funkadelic (two bands consisting of the same members, recording for different labels), but also in a score of offshoot groups and solo ventures. Recording under myriad names, this group had thirteen Top Ten hits in the U.S. R&amp;B music charts between 1967 and 1983, including six number one hits in the R&amp;B Charts. They were elected into the Rock and Roll Hall of Fame in 1997.\n\n        <a href=\"http:\/\/www.last.fm\/music\/Parliament+Funkadelic\">Read more about Parliament Funkadelic on Last.fm<\/a>.\n    \n    \nUser-contributed text is available under the Creative Commons By-SA License and may also be available under the GNU FDL.\n    "}}}
     http_version: 
-  recorded_at: Mon, 26 May 2014 00:06:35 GMT
+  recorded_at: Wed, 28 May 2014 20:45:37 GMT
 - request:
     method: get
     uri: http://ws.spotify.com/search/1/track.json?q=Parliament%20Funkadelic
@@ -423,7 +423,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 May 2014 00:06:36 GMT
+      - Wed, 28 May 2014 20:45:38 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -439,11 +439,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Etag:
-      - '1400965204'
+      - '1401213610'
       Expires:
-      - Tue, 27 May 2014 00:06:36 GMT
+      - Thu, 29 May 2014 20:45:38 GMT
       Last-Modified:
-      - Sat, 24 May 2014 21:00:04 GMT
+      - Tue, 27 May 2014 18:00:10 GMT
     body:
       encoding: UTF-8
       string: '{"info": {"num_results": 45, "limit": 100, "offset": 0, "query": "Parliament
@@ -645,15 +645,7 @@ http_interactions:
         795.773, "href": "spotify:track:2mkyJULKlqT8OTvbe7fSee", "artists": [{"href":
         "spotify:artist:7hwWjHjLHvhSDngoe2Pkbe", "name": "Scott Grooves"}, {"href":
         "spotify:artist:450o9jw6AtiQlQkHCdH6Ru", "name": "Funkadelic"}, {"href": "spotify:artist:5SMVzTJyKFJ7TUb46DglcH",
-        "name": "Parliament"}], "track-number": "2"}, {"album": {"released": "1998",
-        "href": "spotify:album:6GddX9wSDWY09fVtQm69qf", "name": "Pieces Of A Dream",
-        "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY
-        CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT
-        MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name":
-        "Mothership Reconnection feat. Parliament\/Funkadelic", "popularity": "0.05",
-        "external-ids": [{"type": "isrc", "id": "GBBVL9800103"}], "length": 577.706,
-        "href": "spotify:track:5UIdLwxhmYvwD27mM3mNJM", "artists": [{"href": "spotify:artist:7hwWjHjLHvhSDngoe2Pkbe",
-        "name": "Scott Grooves"}], "track-number": "3"}, {"album": {"released": "2011",
+        "name": "Parliament"}], "track-number": "2"}, {"album": {"released": "2011",
         "href": "spotify:album:0hwZF04fRS7YXyf3zDl29H", "name": "Mothership Reconnection
         Remixes", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL
         CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU
@@ -663,22 +655,30 @@ http_interactions:
         "href": "spotify:track:3XQUmLq3TBSotuZd2MKIf0", "artists": [{"href": "spotify:artist:7hwWjHjLHvhSDngoe2Pkbe",
         "name": "Scott Grooves"}, {"href": "spotify:artist:450o9jw6AtiQlQkHCdH6Ru",
         "name": "Funkadelic"}, {"href": "spotify:artist:5SMVzTJyKFJ7TUb46DglcH", "name":
-        "Parliament"}], "track-number": "2"}, {"album": {"released": "2011", "href":
-        "spotify:album:5xSCCOlICvefPvzEpYgJy5", "name": "Take It Make It (featuring
-        George Clinton and Parliament Funkadelic)", "availability": {"territories":
-        "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR
-        GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT
-        PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Take It Make It (feat. Parliament
-        Funkadelic & George Clinton)", "popularity": "0.02", "external-ids": [{"type":
-        "isrc", "id": "uscgh1159289"}], "length": 345.914, "href": "spotify:track:3Ug5qtiuKpIPWi7ZtxrcjJ",
-        "artists": [{"href": "spotify:artist:2Q2ZZTivC9zG9M88yA07VR", "name": "Lucas
-        Kellison"}], "track-number": "1"}, {"album": {"released": "1996", "href":
-        "spotify:album:6NakP8Nd0gz7m1DII1XfZc", "name": "Gettin'' It (Album Number
-        Ten)", "availability": {"territories": "AD AR AT BE BG BO BR CA CH CL CO CR
-        CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC
-        MT MX MY NI NL NO PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name":
-        "I''ve Been Watching You (Move Your Sexy Body)", "popularity": "0.1", "external-ids":
-        [{"type": "isrc", "id": "USJI10300714"}], "length": 450.266, "href": "spotify:track:6ctwq3GT49jYS3GEphAcoy",
+        "Parliament"}], "track-number": "2"}, {"album": {"released": "1998", "href":
+        "spotify:album:6GddX9wSDWY09fVtQm69qf", "name": "Pieces Of A Dream", "availability":
+        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
+        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Mothership
+        Reconnection feat. Parliament\/Funkadelic", "popularity": "0.05", "external-ids":
+        [{"type": "isrc", "id": "GBBVL9800103"}], "length": 577.706, "href": "spotify:track:5UIdLwxhmYvwD27mM3mNJM",
+        "artists": [{"href": "spotify:artist:7hwWjHjLHvhSDngoe2Pkbe", "name": "Scott
+        Grooves"}], "track-number": "3"}, {"album": {"released": "2011", "href": "spotify:album:5xSCCOlICvefPvzEpYgJy5",
+        "name": "Take It Make It (featuring George Clinton and Parliament Funkadelic)",
+        "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY
+        CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT
+        MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name":
+        "Take It Make It (feat. Parliament Funkadelic & George Clinton)", "popularity":
+        "0.02", "external-ids": [{"type": "isrc", "id": "uscgh1159289"}], "length":
+        345.914, "href": "spotify:track:3Ug5qtiuKpIPWi7ZtxrcjJ", "artists": [{"href":
+        "spotify:artist:2Q2ZZTivC9zG9M88yA07VR", "name": "Lucas Kellison"}], "track-number":
+        "1"}, {"album": {"released": "1996", "href": "spotify:album:6NakP8Nd0gz7m1DII1XfZc",
+        "name": "Gettin'' It (Album Number Ten)", "availability": {"territories":
+        "AD AR AT BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO PA PE PH PL PT PY RO
+        SE SG SI SK SV TR TW US UY"}}, "name": "I''ve Been Watching You (Move Your
+        Sexy Body)", "popularity": "0.1", "external-ids": [{"type": "isrc", "id":
+        "USJI10300714"}], "length": 450.266, "href": "spotify:track:6ctwq3GT49jYS3GEphAcoy",
         "artists": [{"href": "spotify:artist:3YA4Qk3LrJlP3BrDoT1te6", "name": "Too
         $hort featuring Parliament Funkadelic and About Face"}], "track-number": "8"},
         {"album": {"released": "2011", "href": "spotify:album:3ntYl3lW3Jkewiinhf83By",
@@ -721,7 +721,17 @@ http_interactions:
         [{"href": "spotify:artist:7hwWjHjLHvhSDngoe2Pkbe", "name": "Scott Grooves"},
         {"href": "spotify:artist:450o9jw6AtiQlQkHCdH6Ru", "name": "Funkadelic"}, {"href":
         "spotify:artist:5SMVzTJyKFJ7TUb46DglcH", "name": "Parliament"}], "track-number":
-        "2"}, {"album": {"released": "1998", "href": "spotify:album:6q5TXpFwk3SHv2xMwQMqIC",
+        "2"}, {"album": {"released": "2011", "href": "spotify:album:0hwZF04fRS7YXyf3zDl29H",
+        "name": "Mothership Reconnection Remixes", "availability": {"territories":
+        "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR
+        GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT
+        PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Mothership Reconnection - VonStroke
+        Energy Pattern Mix", "popularity": "0.02", "external-ids": [{"type": "isrc",
+        "id": "GBBVL1103051"}], "length": 388.267, "href": "spotify:track:7yWWu90IHtr7pjeJevAXg0",
+        "artists": [{"href": "spotify:artist:7hwWjHjLHvhSDngoe2Pkbe", "name": "Scott
+        Grooves"}, {"href": "spotify:artist:450o9jw6AtiQlQkHCdH6Ru", "name": "Funkadelic"},
+        {"href": "spotify:artist:5SMVzTJyKFJ7TUb46DglcH", "name": "Parliament"}],
+        "track-number": "1"}, {"album": {"released": "1998", "href": "spotify:album:6q5TXpFwk3SHv2xMwQMqIC",
         "name": "Mothership Reconnection", "availability": {"territories": "AD AR
         AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
         HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
@@ -732,16 +742,6 @@ http_interactions:
         {"href": "spotify:artist:450o9jw6AtiQlQkHCdH6Ru", "name": "Funkadelic"}, {"href":
         "spotify:artist:5SMVzTJyKFJ7TUb46DglcH", "name": "Parliament"}], "track-number":
         "3"}, {"album": {"released": "2011", "href": "spotify:album:0hwZF04fRS7YXyf3zDl29H",
-        "name": "Mothership Reconnection Remixes", "availability": {"territories":
-        "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR
-        GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT
-        PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Mothership Reconnection - VonStroke
-        Energy Pattern Mix", "popularity": "0.02", "external-ids": [{"type": "isrc",
-        "id": "GBBVL1103051"}], "length": 388.267, "href": "spotify:track:7yWWu90IHtr7pjeJevAXg0",
-        "artists": [{"href": "spotify:artist:7hwWjHjLHvhSDngoe2Pkbe", "name": "Scott
-        Grooves"}, {"href": "spotify:artist:450o9jw6AtiQlQkHCdH6Ru", "name": "Funkadelic"},
-        {"href": "spotify:artist:5SMVzTJyKFJ7TUb46DglcH", "name": "Parliament"}],
-        "track-number": "1"}, {"album": {"released": "2011", "href": "spotify:album:0hwZF04fRS7YXyf3zDl29H",
         "name": "Mothership Reconnection Remixes", "availability": {"territories":
         "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR
         GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT
@@ -819,5 +819,160 @@ http_interactions:
         "artists": [{"href": "spotify:artist:03gcR92d5oYj1hmV8FY5Bc", "name": "Cover
         Crew"}], "track-number": "3"}]}'
     http_version: 
-  recorded_at: Mon, 26 May 2014 00:06:35 GMT
+  recorded_at: Wed, 28 May 2014 20:45:38 GMT
+- request:
+    method: get
+    uri: http://api.songkick.com/api/3.0/search/artists.json?apikey=12XsVy8nEO6w6CqL&query=Parliament%20Funkadelic
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 28 May 2014 20:45:39 GMT
+      Status:
+      - 200 OK
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - private, max-age=3600
+      Expires:
+      - Wed, 28 May 2014 21:45:39 GMT
+      Vary:
+      - Accept-Encoding
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzUGFnZSI6eyJzdGF0dXMiOiJvayIsInJlc3VsdHMiOnsiYXJ0
+        aXN0IjpbeyJkaXNwbGF5TmFtZSI6IlBhcmxpYW1lbnQgRnVua2FkZWxpYyIs
+        Im9uVG91clVudGlsIjoiMjAxNC0wNy0yNiIsImlkZW50aWZpZXIiOlt7ImV2
+        ZW50c0hyZWYiOiJodHRwOi8vYXBpLnNvbmdraWNrLmNvbS9hcGkvMy4wL2Fy
+        dGlzdHMvbWJpZDo3YTBhZTEwZC1jNTFmLTQzNGEtOWQ1YS01NTFkMmFlOTNh
+        OWQvY2FsZW5kYXIuanNvbiIsInNldGxpc3RzSHJlZiI6Imh0dHA6Ly9hcGku
+        c29uZ2tpY2suY29tL2FwaS8zLjAvYXJ0aXN0cy9tYmlkOjdhMGFlMTBkLWM1
+        MWYtNDM0YS05ZDVhLTU1MWQyYWU5M2E5ZC9zZXRsaXN0cy5qc29uIiwibWJp
+        ZCI6IjdhMGFlMTBkLWM1MWYtNDM0YS05ZDVhLTU1MWQyYWU5M2E5ZCIsImhy
+        ZWYiOiJodHRwOi8vYXBpLnNvbmdraWNrLmNvbS9hcGkvMy4wL2FydGlzdHMv
+        bWJpZDo3YTBhZTEwZC1jNTFmLTQzNGEtOWQ1YS01NTFkMmFlOTNhOWQuanNv
+        biJ9XSwidXJpIjoiaHR0cDovL3d3dy5zb25na2ljay5jb20vYXJ0aXN0cy8z
+        NjA4MTUxLXBhcmxpYW1lbnQtZnVua2FkZWxpYz91dG1fc291cmNlPTI3NDA4
+        JnV0bV9tZWRpdW09cGFydG5lciIsImlkIjozNjA4MTUxfSx7Im9uVG91clVu
+        dGlsIjoiMjAxNC0wOS0xMiIsImRpc3BsYXlOYW1lIjoiR2VvcmdlIENsaW50
+        b24gJiBQYXJsaWFtZW50IEZ1bmthZGVsaWMiLCJpZGVudGlmaWVyIjpbeyJz
+        ZXRsaXN0c0hyZWYiOiJodHRwOi8vYXBpLnNvbmdraWNrLmNvbS9hcGkvMy4w
+        L2FydGlzdHMvbWJpZDo1ZDMxNWEwNC0yYjMwLTQ5MTYtOTg2NC05MjlkNDRj
+        NWZmNGMvc2V0bGlzdHMuanNvbiIsIm1iaWQiOiI1ZDMxNWEwNC0yYjMwLTQ5
+        MTYtOTg2NC05MjlkNDRjNWZmNGMiLCJocmVmIjoiaHR0cDovL2FwaS5zb25n
+        a2ljay5jb20vYXBpLzMuMC9hcnRpc3RzL21iaWQ6NWQzMTVhMDQtMmIzMC00
+        OTE2LTk4NjQtOTI5ZDQ0YzVmZjRjLmpzb24iLCJldmVudHNIcmVmIjoiaHR0
+        cDovL2FwaS5zb25na2ljay5jb20vYXBpLzMuMC9hcnRpc3RzL21iaWQ6NWQz
+        MTVhMDQtMmIzMC00OTE2LTk4NjQtOTI5ZDQ0YzVmZjRjL2NhbGVuZGFyLmpz
+        b24ifV0sInVyaSI6Imh0dHA6Ly93d3cuc29uZ2tpY2suY29tL2FydGlzdHMv
+        NTM4OTIzLWdlb3JnZS1jbGludG9uLWFuZC1wYXJsaWFtZW50LWZ1bmthZGVs
+        aWM/dXRtX3NvdXJjZT0yNzQwOCZ1dG1fbWVkaXVtPXBhcnRuZXIiLCJpZCI6
+        NTM4OTIzfSx7ImRpc3BsYXlOYW1lIjoiR2VvcmdlIENsaW50b24gUGFybGlh
+        bWVudCBGdW5rYWRlbGljIiwib25Ub3VyVW50aWwiOiIyMDE0LTA4LTIyIiwi
+        aWRlbnRpZmllciI6W10sInVyaSI6Imh0dHA6Ly93d3cuc29uZ2tpY2suY29t
+        L2FydGlzdHMvNTg2MzYyNC1nZW9yZ2UtY2xpbnRvbi1wYXJsaWFtZW50LWZ1
+        bmthZGVsaWM/dXRtX3NvdXJjZT0yNzQwOCZ1dG1fbWVkaXVtPXBhcnRuZXIi
+        LCJpZCI6NTg2MzYyNH0seyJkaXNwbGF5TmFtZSI6IkdFT1JHRSBDTElOVE9O
+        IEFORCBUSEUgUEFSTElBTUVOVCBGVU5LQURFTElDIiwib25Ub3VyVW50aWwi
+        OiIyMDE0LTA2LTI3IiwiaWRlbnRpZmllciI6W10sInVyaSI6Imh0dHA6Ly93
+        d3cuc29uZ2tpY2suY29tL2FydGlzdHMvNjI2OTE4NC1nZW9yZ2UtY2xpbnRv
+        bi1hbmQtdGhlLXBhcmxpYW1lbnQtZnVua2FkZWxpYz91dG1fc291cmNlPTI3
+        NDA4JnV0bV9tZWRpdW09cGFydG5lciIsImlkIjo2MjY5MTg0fSx7ImlkZW50
+        aWZpZXIiOltdLCJvblRvdXJVbnRpbCI6bnVsbCwiZGlzcGxheU5hbWUiOiJU
+        aGUgUGFybGlhbWVudCBGdW5rYWRlbGljIEFsbCIsInVyaSI6Imh0dHA6Ly93
+        d3cuc29uZ2tpY2suY29tL2FydGlzdHMvMzc0NDM2MS1wYXJsaWFtZW50LWZ1
+        bmthZGVsaWMtYWxsP3V0bV9zb3VyY2U9Mjc0MDgmdXRtX21lZGl1bT1wYXJ0
+        bmVyIiwiaWQiOjM3NDQzNjF9LHsiZGlzcGxheU5hbWUiOiJHZW9yZ2UgQ2xp
+        bnRvbiAmIFBhcmxpYW1lbnQtRnVua2FkZWxpYyIsIm9uVG91clVudGlsIjoi
+        MjAxNC0wNi0yNyIsImlkZW50aWZpZXIiOltdLCJ1cmkiOiJodHRwOi8vd3d3
+        LnNvbmdraWNrLmNvbS9hcnRpc3RzLzgwMTUzMzMtZ2VvcmdlLWNsaW50b24t
+        YW5kLXBhcmxpYW1lbnRmdW5rYWRlbGljP3V0bV9zb3VyY2U9Mjc0MDgmdXRt
+        X21lZGl1bT1wYXJ0bmVyIiwiaWQiOjgwMTUzMzN9LHsiaWRlbnRpZmllciI6
+        W10sInVyaSI6Imh0dHA6Ly93d3cuc29uZ2tpY2suY29tL2FydGlzdHMvNzcw
+        MjA3OS10cmlidXRvc2F1cnVzLWJlY29tZXMtcGFybGlhbWVudC1mdW5rYWRl
+        bGljP3V0bV9zb3VyY2U9Mjc0MDgmdXRtX21lZGl1bT1wYXJ0bmVyIiwiZGlz
+        cGxheU5hbWUiOiJUcmlidXRvc2F1cnVzIEJlY29tZXMgUGFybGlhbWVudCBG
+        dW5rYWRlbGljIiwiaWQiOjc3MDIwNzksIm9uVG91clVudGlsIjpudWxsfSx7
+        ImRpc3BsYXlOYW1lIjoiUGFybGlhbWVudCBGdW5rYWRlbGljIENvbiBGdW5r
+        IFNodW4iLCJpZGVudGlmaWVyIjpbXSwidXJpIjoiaHR0cDovL3d3dy5zb25n
+        a2ljay5jb20vYXJ0aXN0cy82NTk0MjA0LXBhcmxpYW1lbnQtZnVua2FkZWxp
+        Yy1jb24tZnVuay1zaHVuP3V0bV9zb3VyY2U9Mjc0MDgmdXRtX21lZGl1bT1w
+        YXJ0bmVyIiwib25Ub3VyVW50aWwiOm51bGwsImlkIjo2NTk0MjA0fSx7Imlk
+        ZW50aWZpZXIiOltdLCJvblRvdXJVbnRpbCI6bnVsbCwiZGlzcGxheU5hbWUi
+        OiJQYXJsaWFtZW50ICYgRnVua2FkZWxpYyIsInVyaSI6Imh0dHA6Ly93d3cu
+        c29uZ2tpY2suY29tL2FydGlzdHMvNTE2OTgxOC1wYXJsaWFtZW50LWFuZC1m
+        dW5rYWRlbGljP3V0bV9zb3VyY2U9Mjc0MDgmdXRtX21lZGl1bT1wYXJ0bmVy
+        IiwiaWQiOjUxNjk4MTh9LHsib25Ub3VyVW50aWwiOm51bGwsImRpc3BsYXlO
+        YW1lIjoiUGFybGlhbWVudCBGdW5rYWRlbGljIE5ldyBZZWFycyBNYXNxdWVy
+        YWRlIEJhbGwiLCJpZGVudGlmaWVyIjpbXSwidXJpIjoiaHR0cDovL3d3dy5z
+        b25na2ljay5jb20vYXJ0aXN0cy83NDk2NDA0LXBhcmxpYW1lbnQtZnVua2Fk
+        ZWxpYy1uZXcteWVhcnMtbWFzcXVlcmFkZS1iYWxsP3V0bV9zb3VyY2U9Mjc0
+        MDgmdXRtX21lZGl1bT1wYXJ0bmVyIiwiaWQiOjc0OTY0MDR9LHsib25Ub3Vy
+        VW50aWwiOm51bGwsImRpc3BsYXlOYW1lIjoiUGFybGlhbWVudCBGdW5rYWRl
+        bGljIE5ldyBZZWFycyBNYXNxdWVyYWRlIEJhIiwiaWRlbnRpZmllciI6W10s
+        InVyaSI6Imh0dHA6Ly93d3cuc29uZ2tpY2suY29tL2FydGlzdHMvNzQ5NjY0
+        NC1wYXJsaWFtZW50LWZ1bmthZGVsaWMtbmV3LXllYXJzLW1hc3F1ZXJhZGUt
+        YmE/dXRtX3NvdXJjZT0yNzQwOCZ1dG1fbWVkaXVtPXBhcnRuZXIiLCJpZCI6
+        NzQ5NjY0NH0seyJvblRvdXJVbnRpbCI6bnVsbCwiZGlzcGxheU5hbWUiOiJQ
+        YXJsaWFtZW50IEZ1bmthZGVsaWMgTmV3IFllYXJzIE1hc3F1ZXJhZGUgQmFs
+        bCBGZWF0dSIsImlkZW50aWZpZXIiOltdLCJ1cmkiOiJodHRwOi8vd3d3LnNv
+        bmdraWNrLmNvbS9hcnRpc3RzLzc0OTY2NDktcGFybGlhbWVudC1mdW5rYWRl
+        bGljLW5ldy15ZWFycy1tYXNxdWVyYWRlLWJhbGwtZmVhdHU/dXRtX3NvdXJj
+        ZT0yNzQwOCZ1dG1fbWVkaXVtPXBhcnRuZXIiLCJpZCI6NzQ5NjY0OX0seyJk
+        aXNwbGF5TmFtZSI6IlBhcmxpYW1lbnQgRnVua2FkZWxpYyBCaXJ0aGRheSBG
+        dW5rYXRob24iLCJpZGVudGlmaWVyIjpbXSwidXJpIjoiaHR0cDovL3d3dy5z
+        b25na2ljay5jb20vYXJ0aXN0cy80NDA2ODgzLXBhcmxpYW1lbnQtZnVua2Fk
+        ZWxpYy1iaXJ0aGRheS1mdW5rYXRob24/dXRtX3NvdXJjZT0yNzQwOCZ1dG1f
+        bWVkaXVtPXBhcnRuZXIiLCJpZCI6NDQwNjg4Mywib25Ub3VyVW50aWwiOm51
+        bGx9LHsiZGlzcGxheU5hbWUiOiJQYXJsaWFtZW50IEZ1bmthZGVsaWMgQmly
+        dGhkYXkgQ2VsZWJyYXRpb24iLCJpZGVudGlmaWVyIjpbXSwidXJpIjoiaHR0
+        cDovL3d3dy5zb25na2ljay5jb20vYXJ0aXN0cy80NDY0NTY4LXBhcmxpYW1l
+        bnQtZnVua2FkZWxpYy1iaXJ0aGRheS1jZWxlYnJhdGlvbj91dG1fc291cmNl
+        PTI3NDA4JnV0bV9tZWRpdW09cGFydG5lciIsImlkIjo0NDY0NTY4LCJvblRv
+        dXJVbnRpbCI6bnVsbH0seyJkaXNwbGF5TmFtZSI6IlRoZSBNb3RldCBQbGF5
+        cyBQYXJsaWFtZW50IEZ1bmthZGVsaWMiLCJvblRvdXJVbnRpbCI6bnVsbCwi
+        dXJpIjoiaHR0cDovL3d3dy5zb25na2ljay5jb20vYXJ0aXN0cy81NjkxMjg5
+        LW1vdGV0LXBsYXlzLXBhcmxpYW1lbnQtZnVua2FkZWxpYz91dG1fc291cmNl
+        PTI3NDA4JnV0bV9tZWRpdW09cGFydG5lciIsImlkZW50aWZpZXIiOltdLCJp
+        ZCI6NTY5MTI4OX0seyJvblRvdXJVbnRpbCI6bnVsbCwidXJpIjoiaHR0cDov
+        L3d3dy5zb25na2ljay5jb20vYXJ0aXN0cy82NTc4MDQ0LXBhcmxpYW1lbnQt
+        ZnVua2FkZWxpYy1hbGwtYWdlcz91dG1fc291cmNlPTI3NDA4JnV0bV9tZWRp
+        dW09cGFydG5lciIsImRpc3BsYXlOYW1lIjoiUGFybGlhbWVudCBGdW5rYWRl
+        bGljIOKAlCBBbGwgQWdlcyIsImlkZW50aWZpZXIiOltdLCJpZCI6NjU3ODA0
+        NH0seyJvblRvdXJVbnRpbCI6IjIwMTQtMDYtMjYiLCJpZGVudGlmaWVyIjpb
+        XSwidXJpIjoiaHR0cDovL3d3dy5zb25na2ljay5jb20vYXJ0aXN0cy83OTc0
+        NjE4LXBhcmxpYW1lbnQtZnVua2FkZWxpYy10aGUtdm9ndWU/dXRtX3NvdXJj
+        ZT0yNzQwOCZ1dG1fbWVkaXVtPXBhcnRuZXIiLCJkaXNwbGF5TmFtZSI6IlBh
+        cmxpYW1lbnQgRnVua2FkZWxpYyBAIHRoZSBWb2d1ZSIsImlkIjo3OTc0NjE4
+        fSx7Im9uVG91clVudGlsIjpudWxsLCJkaXNwbGF5TmFtZSI6IkdpcmwgVGFs
+        ayAmIEdlb3JnZSBDbGludG9uICYgUGFybGlhbWVudCBGdW5rYWRlbGljIiwi
+        aWRlbnRpZmllciI6W10sInVyaSI6Imh0dHA6Ly93d3cuc29uZ2tpY2suY29t
+        L2FydGlzdHMvNzM2NjQ1NC1naXJsLXRhbGstYW5kLWdlb3JnZS1jbGludG9u
+        LWFuZC1wYXJsaWFtZW50LWZ1bmthZGVsaWM/dXRtX3NvdXJjZT0yNzQwOCZ1
+        dG1fbWVkaXVtPXBhcnRuZXIiLCJpZCI6NzM2NjQ1NH0seyJpZGVudGlmaWVy
+        IjpbXSwidXJpIjoiaHR0cDovL3d3dy5zb25na2ljay5jb20vYXJ0aXN0cy8z
+        ODI4NjgtcGFybGlhbWVudC1mdW5rYWRlbGljLXBmdW5rLWFsbC1zdGFycz91
+        dG1fc291cmNlPTI3NDA4JnV0bV9tZWRpdW09cGFydG5lciIsIm9uVG91clVu
+        dGlsIjpudWxsLCJkaXNwbGF5TmFtZSI6IlBhcmxpYW1lbnQgLSBGdW5rYWRl
+        bGljIC0gUC1mdW5rIEFsbCBTdGFycyIsImlkIjozODI4Njh9XX0sInBlclBh
+        Z2UiOjUwLCJwYWdlIjoxLCJ0b3RhbEVudHJpZXMiOjE5fX0=
+    http_version: 
+  recorded_at: Wed, 28 May 2014 20:45:39 GMT
 recorded_with: VCR 2.9.0

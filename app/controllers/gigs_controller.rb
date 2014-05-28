@@ -21,6 +21,7 @@ class GigsController < ApplicationController
     @venue = params[:venue]
     @location = params[:location]
     @song_list = GigFinder.new.find_songs_by_artist(params[:artist])
+    @display_name = GigFinder.new.find_artist_name(params[:artist])
   end
 
   def edit

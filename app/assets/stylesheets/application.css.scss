@@ -1,110 +1,67 @@
 /*
  *= require_tree .
  *= require_self
+ *= require bootstrap.min
  */
 
 body {
+////  background-color: #2E2F30;
   background-image: asset-url("concert.jpeg");
   background-attachment: fixed;
   background-size: 100%;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+////  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 }
 
-header {
-  background: #000000;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
-}
+//header {
+//  background-color: #DADADA;
+//  height: 32px;
+//  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+//}
 
-.container-inner {
-  margin: auto;
-  width: 960px;
-  padding: 1em;
-}
 
-.attributes {
-  overflow: auto;
-}
 
-.form-label {
-  display: inline-block;
-  width: 100px;
-}
-
-.form-button {
-  margin-left: 105px;
-
-}
-
-.attributes > dt {
-  clear: left;
-  display: block;
-  float: left;
-  width: 100px;
-  padding-bottom: 1em;
-  font-weight: bold;
-}
-
-/*.attributes > dt:after {*/
-/*content: ':';*/
-/*}*/
-
-.attributes > dd {
-  float: left;
-}
-
-.actions {
-  float: right;
-  font-size: 1.5em;
-  margin-top: 1em;
-}
-
-.container {
-  text-align: center;
-}
-
-ul {
-  list-style: none;
-  color: white;
-}
-
-#band_info {
-  text-align: center;
-  color: #f7644d;
-}
-
+//.container-inner {
+//  margin: auto;
+//  width: 960px;
+//  padding: 1em;
+//}
+//
+//.form-label {
+//  display: inline-block;
+//  width: 100px;
+//}
+//
+//.form-button {
+//  margin-left: 105px;
+//
+//}
+//
+//.container {
+//  text-align: center;
+//}
+//
+//ul {
+//  list-style: none;
+//  color: white;
+//}
+//
+//#band_info {
+//  text-align: center;
+//  color: #f7644d;
+//}
+//
 #form_display {
   text-align: center;
   margin-top: 20%;
 }
-
-img {
-  margin-left: 32%;
-}
-
-//#button {
-//  background: #000000;
-//  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-//  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-//  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-//  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-//  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-//  -webkit-border-radius: 28;
-//  -moz-border-radius: 28;
-//  border-radius: 11px;
-//  font-family: Arial;
-//  color: #ffffff;
-//  font-size: 20px;
-//  padding: 10px 20px 10px 20px;
-//  text-decoration: none;
+//
+//img {
+//  margin-left: 32%;
 //}
-
-#button {
-  background-color: #2E2F30;
-  color: #DADADA;
-  border-radius: 7px;
-}
-
-#input {
-
-}
+//
+//#button {
+//  background-color: #2E2F30;
+//  color: #DADADA;
+//  border-radius: 7px;
+//}
 

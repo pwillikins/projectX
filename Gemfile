@@ -4,9 +4,9 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.14.2'
   gem 'capybara', '~> 2.2.1'
   gem 'dotenv-rails', '~> 0.11.1'
-  gem 'faraday', '~> 0.9.0'
 end
 
+gem 'faraday', '~> 0.9.0'
 
 
 ruby '2.1.1'

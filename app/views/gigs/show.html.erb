@@ -1,12 +1,10 @@
-<h1 style="color:#f7644d">Vote for the songs you want to hear!!</h1>
-
-<ul>
-<li><h1 style="color:#f7644d"><%= @venue %>, <%= @location %></h1></li>
-</ul>
+<div class="container">
+  <ul>
+    <li><h1 style="color:#ffff00"><%= @display_name %> - <%= @venue %>, <%= @location %></h1></li>
 
 <% @song_list.each do |x| %>
-  <ul>
-    <li><%= x %></li>
+      <li><%= x %></li>
+    <% end %>
   </ul>
-<% end %>
+</div>
 
