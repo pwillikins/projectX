@@ -1,67 +1,61 @@
 /*
- *= require_tree .
+*= require_tree .
  *= require_self
  *= require bootstrap.min
  */
 
+
+header h1 {
+  padding-left: 10px;
+}
 body {
-////  background-color: #2E2F30;
+  background-color: #444444;
+}
+
+body.homepage {
   background-image: asset-url("concert.jpeg");
   background-attachment: fixed;
   background-size: 100%;
-////  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 }
 
-//header {
-//  background-color: #DADADA;
-//  height: 32px;
-//  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
-//}
+ul {
+  list-style: none;
+}
 
-
-
-//.container-inner {
-//  margin: auto;
-//  width: 960px;
-//  padding: 1em;
-//}
-//
-//.form-label {
-//  display: inline-block;
-//  width: 100px;
-//}
-//
-//.form-button {
-//  margin-left: 105px;
-//
-//}
-//
-//.container {
-//  text-align: center;
-//}
-//
-//ul {
-//  list-style: none;
-//  color: white;
-//}
-//
-//#band_info {
-//  text-align: center;
-//  color: #f7644d;
-//}
-//
 #form_display {
   text-align: center;
   margin-top: 20%;
 }
-//
-//img {
-//  margin-left: 32%;
-//}
-//
-//#button {
-//  background-color: #2E2F30;
-//  color: #DADADA;
-//  border-radius: 7px;
-//}
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+tr:hover {
+  background: #adadad;
+}
+
+button.btn-default {
+  width: 11%;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 1%;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}

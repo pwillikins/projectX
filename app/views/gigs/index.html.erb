@@ -1,14 +1,27 @@
-<h1 id="band_info"><%= @display_name %></h1>
-
-<%= image_tag @image_url %>
-
 <div class="container">
-  <% @gigs.each do |venue, location| %>
-    <ul>
-      <li><%= venue %>, <%= location %> | <%= link_to "Rock Your Vote!",
-                                                      gigs_show_path(venue: venue, location: location, artist: @display_name),
-                                                      method: :post,
-                                                      :style => "color:white" %></li>
-    </ul>
-  <% end %>
+  <div class="jumbotron">
+
+    <h1 style="text-align: center; color:#F7F7F7"><%= @display_name %></h1>
+
+    <%= image_tag @image_url %>
+
+
+    <table align="center" class="table table-bordered">
+      <tr>
+        <th>Venue</th>
+        <th>Location</th>
+        <th>Cast Your Vote</th>
+      </tr>
+      <% @gigs.each do |venue, location| %>
+        <tr>
+          <td><%= venue %></td>
+          <td><%= location %></td>
+          <td><%= link_to "Rock Your Vote!",
+                          gigs_show_path(venue: venue, location: location, artist: @display_name),
+                          method: :post,
+                          :style => "color:salmon" %></td>
+        </tr>
+      <% end %>
+    </table>
+  </div>
 </div>
