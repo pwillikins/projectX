@@ -6,6 +6,10 @@ Rails.application.routes.draw do
 
   post "/gigs/show", to: "gigs#show"
 
+  get "/auth/facebook/callback", to: "sessions#create"
+
+  get "/logout", to: "sessions#destroy"
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

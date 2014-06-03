@@ -98,7 +98,7 @@ figure {
 hr {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    height: 0
+    height: 0;
 }
 
 pre {
@@ -357,7 +357,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid #eee
+    border-top: 1px solid #000000;
 }
 
 .sr-only {
@@ -1614,13 +1614,18 @@ table {
     background-color: #fff;
 }
 
+hr {
+    max-width: 87%;
+    margin-bottom: 3%;
+}
+
 th {
     text-align: left
 }
 
 .table {
     width: 100%;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
@@ -2138,28 +2143,6 @@ textarea.input-lg, select[multiple].input-lg {
     right: 15px
 }
 
-#search_button {
-    width: 11%;
-    display: inline-block;
-    margin-bottom: 0;
-    margin-top: 1%;
-    margin-left: 6.4%;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
-    white-space: nowrap;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: thin dotted;
@@ -4727,11 +4710,10 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
     padding: 30px;
     margin-bottom: 30px;
     color: inherit;
-    background-color: #eee
 }
 
 .jumbotron h1, .jumbotron .h1 {
-    color: inherit
+    color: #000000;
 }
 
 .jumbotron p {
@@ -4741,10 +4723,8 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
 }
 
 .container .jumbotron {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #BBBBBB;
     border-radius: 6px;
-    color: #BBBBBB;
-
 }
 
 .jumbotron .container {
@@ -4758,12 +4738,13 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
     }
 
     .container .jumbotron {
-        padding-left: 60px;
+        padding-left: 25px;
         padding-right: 60px
     }
 
     .jumbotron h1, .jumbotron .h1 {
-        font-size: 63px
+        font-size: 60px;
+        margin-bottom: 15px
     }
 }
 

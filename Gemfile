@@ -7,6 +7,7 @@ group :test, :development do
 end
 
 gem 'faraday', '~> 0.9.0'
+gem 'omniauth-facebook'
 
 ruby '2.1.1'
 

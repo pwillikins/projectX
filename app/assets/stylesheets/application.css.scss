@@ -8,8 +8,13 @@
 header h1 {
   padding-left: 10px;
 }
+
+.gigs_header {
+
+}
+
 body {
-  background-color: #444444;
+  background-color: #ffffff;
 }
 
 body.homepage {
@@ -31,18 +36,19 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 tr:hover {
   background: #adadad;
 }
 
-button.btn-default {
+#search_button {
   width: 11%;
   display: inline-block;
   margin-bottom: 0;
   margin-top: 1%;
+  margin-right: 6.6%;
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
@@ -58,4 +64,43 @@ button.btn-default {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none
+}
+
+button.btn-default {
+  width: 11%;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 1%;
+  margin-left: 6.4%;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.jumbotron h2 {
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.fb_login_button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#status {
+  margin-top: 5px;
+  text-align: center;
+  color: #ffffff;
 }

@@ -1,10 +1,14 @@
 <div class="container">
   <div class="jumbotron">
-
-    <h1 style="text-align: center; color:#F7F7F7"><%= @display_name %></h1>
+    <div class="gigs_header">
+      <h1 style="text-align: center; color:#000000"><%= @display_name %></h1>
+    </div>
 
     <%= image_tag @image_url %>
 
+    <hr style="margin-bottom: -10px;">
+
+    <h2 align="center">Upcoming Shows</h2>
 
     <table align="center" class="table table-bordered">
       <tr>
@@ -19,7 +23,7 @@
           <td><%= link_to "Rock Your Vote!",
                           gigs_show_path(venue: venue, location: location, artist: @display_name),
                           method: :post,
-                          :style => "color:salmon" %></td>
+                          :style => "color:red" %></td>
         </tr>
       <% end %>
     </table>
