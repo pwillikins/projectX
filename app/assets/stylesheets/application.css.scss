@@ -5,14 +5,6 @@
  */
 
 
-header h1 {
-  padding-left: 10px;
-}
-
-.gigs_header {
-
-}
-
 body {
   background-color: #ffffff;
 }
@@ -103,4 +95,18 @@ button.btn-default {
   margin-top: 5px;
   text-align: center;
   color: #ffffff;
+}
+
+image {
+  max-height: 10px;
+  max-width: 10px;
+}
+
+section {
+  width: 80%;
+  max-width: 1133px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
 }

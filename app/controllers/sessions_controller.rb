@@ -1,18 +1,29 @@
 class SessionsController < ApplicationController
+
+  def new
+    @user = User.new
+  end
+
   def create
-    @user = User.find_or_create_from_auth_hash(auth_hash)
-    self.current_user = @user
-    redirect_to '/'
+    email = params[:email]
+    password = params[:password]
+    @user = User.find_by_email(email)
+
+    if @user && @user.authenticate(password)
+      log_user_in(@user)
+      flash[:notice] = "Welcome back #{current_user.email}"
+      redirect_to root_path
+    else
+      flash[:notice] = "Email/password incorrect"
+      render :new
+    end
+
   end
 
   def destroy
-    session.clear
+    session[:user_id] = nil
+    flash[:notice] = "You have logged out."
     redirect_to root_path
   end
 
-  protected
-
-  def auth_hash
-    request.env['FACEBOOK_KEY']
-  end
 end

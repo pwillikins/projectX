@@ -1,6 +1,6 @@
-require 'gig_finder'
-
 class GigsController < ApplicationController
+
+  before_filter :authenticate
 
   def index
     artist_name = params[:band_name]
@@ -11,24 +11,5 @@ class GigsController < ApplicationController
 
     # remote = Songkickr::Remote.new API_KEY
     # @results = remote.events(type: "concert", artists: params[:band_name])
-  end
-
-  def new
-
-  end
-
-  def show
-    @venue = params[:venue]
-    @location = params[:location]
-    @song_list = GigFinder.new.find_songs_by_artist(params[:artist])
-    @display_name = GigFinder.new.find_artist_name(params[:artist])
-  end
-
-  def edit
-
-  end
-
-  def update
-
   end
 end

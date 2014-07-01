@@ -1,0 +1,15 @@
+<%= form_tag('/sessions') do %>
+  <table class="form_styling">
+    <tr>
+      <td><%= label_tag :email %></td>
+      <td><%= text_field_tag :email %></td>
+    </tr>
+    <tr>
+      <td><%= label_tag :password %></td>
+      <td><%= password_field_tag :password %></td>
+    </tr>
+    <tr>
+      <td><%= submit_tag :login, value: "Login" %></td>
+  <% end %>
+  </tr>
+</table>

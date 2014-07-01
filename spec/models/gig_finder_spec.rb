@@ -44,7 +44,7 @@ describe GigFinder do
 
   it "returns a list of the artists songs" do
     VCR.use_cassette("song_finder/find_songs") do
-      finder = GigFinder.new
+      finder = SongFinder.new
 
       expected = "Lonesome"
 

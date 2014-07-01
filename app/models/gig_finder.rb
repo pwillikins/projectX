@@ -31,7 +31,7 @@ class GigFinder
       image_array << image
     end
     images = []
-    image_array[-1].each do |_, value|
+    image_array.last.each do |_, value|
       images << value
     end
     images[0]
@@ -48,16 +48,16 @@ class GigFinder
     artist_name.first
   end
 
-  def find_songs_by_artist(artist)
-    songs = []
-    response = Faraday.get "http://ws.spotify.com/search/1/track.json?q=#{artist}"
-    song_data = JSON.parse(response.body)
-
-    song_data["tracks"].select do |song|
-      songs << song["name"]
-    end
-    songs
-  end
+  # def find_songs_by_artist(artist)
+  #   songs = []
+  #   response = Faraday.get "http://ws.spotify.com/search/1/track.json?q=#{artist}"
+  #   song_data = JSON.parse(response.body)
+  #
+  #   song_data["tracks"].select do |song|
+  #     songs << song["name"]
+  #   end
+  #   songs
+  # end
 end
 
 

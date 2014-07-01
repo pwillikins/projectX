@@ -8,12 +8,25 @@
 </head>
 <body>
 <div class="page-header">
-  <header>
+  <section>
     <h1 align="left" style="color:#F7F7F7" style="font: 'Roboto Condensed', sans-serif">Rock Your Vote!</h1>
+  </section>
+  <% if logged_in? %>
     <%= link_to "Logout", logout_path %>
-  </header>
+    <a><%= current_user.email %></a>
+  <% else %>
+
+    <%= link_to "Login", new_session_path %>
+    <%= link_to "Register", new_user_path %>
+  <% end %>
+
 </div>
 
+<div class="welcome_flash">
+  <% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, class: name %>
+  <% end %>
+</div>
 
 <%= yield %>
 

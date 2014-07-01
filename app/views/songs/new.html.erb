@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <ul style="color:#F7F7F7">
+        <li><h1 style="text-align: center"><%= @display_name %></h1></li>
+        <li><h2 style="text-align: center" style="color:#000000"><%= @venue %> - <%= @location %></h2></li>
+        <hr>
+        <table align="center" class="table table-bordered">
+          <tr>
+            <th>Vote for the 5 songs you want to hear!</th>
+          </tr>
+          <%= form_for :voted_songs do |x| %>
+            <tr>
+              <td><%= x.select :songs, collection: @song_list %></td>
+            </tr>
+            <tr>
+              <td><%= x.select :songs, collection: @song_list %></td>
+            </tr>
+            <tr>
+              <td><%= x.select :songs, collection: @song_list %></td>
+            </tr>
+            <tr>
+              <td><%= x.select :songs, collection: @song_list %></td>
+            </tr>
+            <tr>
+              <td><%= x.select :songs, collection: @song_list %></td>
+            </tr>
+            <td><%= x.button :submit %></td>
+            </tr>
+          <% end %>
+        </table>
+      </ul>
+    </div>
+  </div>
+</div>
