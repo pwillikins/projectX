@@ -10,11 +10,10 @@ describe ApplicationController do
     end
 
     it "returns the user if user is logged in" do
-
       current_user = create_user
       controller.log_user_in(current_user)
       expect(controller.current_user).to eq current_user
-      expect(controller.logged_in?).to eq 1
+      expect(controller.logged_in?).to eq session[:user_id]
     end
 
     it "can log a user out" do
