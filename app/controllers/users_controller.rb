@@ -9,6 +9,7 @@ class UsersController < ApplicationController
     if @user.save
       session[:user_id] = @user.id
       redirect_to root_path
+      flash[:notice] = "Welcome to Rock Your Vote #{current_user.email}"
     else
       render :new
     end
