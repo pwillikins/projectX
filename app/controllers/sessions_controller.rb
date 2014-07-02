@@ -11,8 +11,8 @@ class SessionsController < ApplicationController
 
     if @user && @user.authenticate(password)
       log_user_in(@user)
-      flash[:notice] = "Welcome back #{current_user.email}"
       redirect_to root_path
+      flash[:notice] = "Welcome back #{current_user.email}"
     else
       flash[:notice] = "Email/password incorrect"
       render :new

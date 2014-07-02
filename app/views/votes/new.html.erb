@@ -8,24 +8,18 @@
         <table align="center" class="table table-bordered">
           <tr>
             <th>Vote for the 5 songs you want to hear!</th>
+            <th>Song Name</th>
           </tr>
-          <%= form_for :voted_songs do |x| %>
+          <%= form_for :votes do |x| %>
+            <% @song_list.each do |item| %>
+              <tr>
+                <td><%= x.check_box :song_name %></td>
+                <td><%= x.label item %></td>
+              </tr>
+            <% end %>
             <tr>
-              <td><%= x.select :songs, collection: @song_list %></td>
-            </tr>
-            <tr>
-              <td><%= x.select :songs, collection: @song_list %></td>
-            </tr>
-            <tr>
-              <td><%= x.select :songs, collection: @song_list %></td>
-            </tr>
-            <tr>
-              <td><%= x.select :songs, collection: @song_list %></td>
-            </tr>
-            <tr>
-              <td><%= x.select :songs, collection: @song_list %></td>
-            </tr>
             <td><%= x.button :submit %></td>
+              <td></td>
             </tr>
           <% end %>
         </table>

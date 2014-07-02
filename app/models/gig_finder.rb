@@ -49,14 +49,14 @@ class GigFinder
   end
 
   # def find_songs_by_artist(artist)
-  #   songs = []
+  #   votes = []
   #   response = Faraday.get "http://ws.spotify.com/search/1/track.json?q=#{artist}"
   #   song_data = JSON.parse(response.body)
   #
   #   song_data["tracks"].select do |song|
-  #     songs << song["name"]
+  #     votes << song["name"]
   #   end
-  #   songs
+  #   votes
   # end
 end
 

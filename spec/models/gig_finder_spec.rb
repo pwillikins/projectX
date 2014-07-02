@@ -42,7 +42,7 @@ describe GigFinder do
     end
   end
 
-  it "returns a list of the artists songs" do
+  it "returns a list of the artists votes" do
     VCR.use_cassette("song_finder/find_songs") do
       finder = SongFinder.new
 

@@ -7,20 +7,21 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="page-header">
-  <section>
-    <h1 align="left" style="color:#F7F7F7" style="font: 'Roboto Condensed', sans-serif">Rock Your Vote!</h1>
-  </section>
-  <% if logged_in? %>
-    <%= link_to "Logout", logout_path %>
-    <a><%= current_user.email %></a>
-  <% else %>
+<header>
 
-    <%= link_to "Login", new_session_path %>
-    <%= link_to "Register", new_user_path %>
-  <% end %>
+  <h1 data-homepage="<%= root_path %>">Rock Your Vote!</h1>
 
-</div>
+  <ul id="nav">
+    <% if logged_in? %>
+      <li>| <%= link_to "Logout", logout_path %></li>
+      <li id="user_name"><%= current_user.email %></li>
+    <% else %>
+
+      <li id="login"><%= link_to "Login", new_session_path %></li>
+      <li id="register"><%= link_to "Register", new_user_path %> |</li>
+    <% end %>
+  </ul>
+</header>
 
 <div class="welcome_flash">
   <% flash.each do |name, msg| %>

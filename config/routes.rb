@@ -12,12 +12,12 @@ Rails.application.routes.draw do
 
   get "/gigs", to: "gigs#index"
 
-  get "/songs/new", to: "songs#new"
+  get "/votes/new", to: "votes#new"
 
-  post "/songs/new", to: "songs#new"
+  post "/votes/new", to: "votes#new"
 
-  post "/songs", to: "songs#create"
+  post "/votes", to: "votes#create"
 
-  get "/songs/:id", to: "songs#show", as: "show_path"
+  get "/votes/:id", to: "votes#show", as: "show_path"
 
 end

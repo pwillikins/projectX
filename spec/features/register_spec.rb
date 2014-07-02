@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 feature "User visits homepage" do
-  scenario "user can search for gigs and vote for their corresponding songs" do
+  scenario "user can search for gigs and vote for their corresponding votes" do
     VCR.use_cassette('gig_finder/find_events') do
       register_user
 
@@ -12,7 +12,7 @@ feature "User visits homepage" do
       expect(page).to have_content 'XS Nightclub', 'Wynn Social Las Vegas, NV, US'
       expect(page).to have_link 'Rock Your Vote!', match: :first
 
-      # user can click link and see list of songs
+      # user can click link and see list of votes
       click_link 'Rock Your Vote!', match: :first
       expect(page).to have_content 'XS Nightclub', 'Wynn Social Las Vegas, NV, US'
       expect(page).to have_button 'submit'

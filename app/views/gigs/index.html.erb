@@ -21,7 +21,7 @@
           <td><%= venue %></td>
           <td><%= location %></td>
           <td><%= link_to "Rock Your Vote!",
-                          songs_new_path(venue: venue, location: location, artist: @display_name),
+                          votes_new_path(venue: venue, location: location, artist: @display_name),
                           method: :post,
                           :style => "color:red" %></td>
         </tr>

@@ -1,3 +1,4 @@
+<body class="homepage">
 <%= @notice %>
 <% if @user.errors.present? %>
   <div class="errors">
@@ -8,25 +9,19 @@
     </ul>
   </div>
 <% end %>
-<%= form_for @user do |f| %>
-  <table class="form_styling">
-    <tr>
-      <td><%= f.label :email %></td>
-      <td><%= f.text_field :email %></td>
-    </tr>
 
-    <tr>
-      <td><%= f.label :password %></td>
-      <td><%= f.password_field :password %></td>
-    </tr>
+<div class="authentication_form">
+  <%= form_for @user do |f| %>
+        <%= f.label :email %>
+        <%= f.text_field :email, placeholder: "Enter email" %>
 
-    <tr>
-      <td><%= f.label :password_confirmation, "Password Confirmation" %></td>
-      <td><%= f.password_field :password_confirmation %></td>
-    </tr>
+        <%= f.label :password %>
+        <%= f.password_field :password, placeholder: "Enter password" %>
 
-    <tr>
-      <td><%= f.submit :register, :value => "Register" %></td>
-    </tr>
-<% end %>
-</table>
+        <%= f.label :password_confirmation, "Password Confirmation" %>
+        <%= f.password_field :password_confirmation %>
+
+        <%= f.submit :register, :value => "Register" %>
+  <% end %>
+</div>
+</body>

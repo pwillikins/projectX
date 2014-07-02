@@ -1,4 +1,4 @@
-class SongsController < ApplicationController
+class VotesController < ApplicationController
 
   before_filter :authenticate
 
@@ -10,10 +10,6 @@ class SongsController < ApplicationController
   end
 
   def create
-    songs = VotedSongs.new(songs: params[:songs])
-    songs.save
-    redirect_to show_path
+    @vote = Vote.new(user_id: @current_user.id, )
   end
-
-
 end
