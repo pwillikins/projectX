@@ -12,10 +12,16 @@ describe GigFinder do
   end
 
   it "can search for artist events using an artist id" do
-    VCR.use_cassette("gig_finder") do
+    VCR.use_cassette("gig_finder/") do
       finder = GigFinder.new
 
-      expected_artist_events = {"Hot August Music Festival" => "Cockeysville, MD, US"}
+      expected_artist_events = {
+        "Western Gateway Park" => {
+          :gig_id => 20290563,
+          :venue => "Western Gateway Park",
+          :location => "Des Moines, IA, US"
+        }
+      }
 
       expect(finder.find_events(42687)).to include expected_artist_events
     end

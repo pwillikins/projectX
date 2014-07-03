@@ -8,6 +8,6 @@ class SongFinder
     song_data["tracks"].select do |song|
       songs << song["name"]
     end
-    songs
+    songs.uniq!
   end
 end

@@ -18,6 +18,8 @@ Rails.application.routes.draw do
 
   post "/votes", to: "votes#create"
 
-  get "/votes/:id", to: "votes#show", as: "show_path"
+  get "/votes_for_user", to: "votes#votes_for_user"
+
+  get "/votes_for_gig", to: "votes#votes_for_gig"
 
 end

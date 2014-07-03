@@ -9,17 +9,19 @@
 <body>
 <header>
 
-  <h1 data-homepage="<%= root_path %>">Rock Your Vote!</h1>
+  <a href="/"><h1>Rock Your Vote!</h1></a>
 
   <ul id="nav">
     <% if logged_in? %>
-      <li>| <%= link_to "Logout", logout_path %></li>
+      <li><a id="my_votes_link" href="/votes_for_user">My Votes</a></li>
+      <li>| <%= link_to "Logout", logout_path %> |</li>
       <li id="user_name"><%= current_user.email %></li>
-    <% else %>
+      <li><%= link_to "Home", root_path %> |</li>
+  <% else %>
 
       <li id="login"><%= link_to "Login", new_session_path %></li>
       <li id="register"><%= link_to "Register", new_user_path %> |</li>
-    <% end %>
+  <% end %>
   </ul>
 </header>
 

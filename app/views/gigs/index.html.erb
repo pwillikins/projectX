@@ -15,15 +15,19 @@
         <th>Venue</th>
         <th>Location</th>
         <th>Cast Your Vote</th>
+        <th>Total Votes</th>
       </tr>
-      <% @gigs.each do |venue, location| %>
+      <% @gigs.each do |venue, event| %>
         <tr>
-          <td><%= venue %></td>
-          <td><%= location %></td>
-          <td><%= link_to "Rock Your Vote!",
-                          votes_new_path(venue: venue, location: location, artist: @display_name),
+          <td><%= event[:venue] %></td>
+          <td><%= event[:location] %></td>
+          <td><%= link_to "Vote Now!",
+                          votes_new_path(venue: venue, gig_id: event[:gig_id], location: event[:location], artist: @display_name),
                           method: :post,
                           :style => "color:red" %></td>
+          <td><%= link_to "See All Votes For This Concert",
+                          votes_for_gig_path(gig_id: event[:gig_id]),
+                          :style => "color:blue" %></td>
         </tr>
       <% end %>
     </table>

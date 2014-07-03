@@ -14,6 +14,7 @@ ruby '2.1.1'
 group :test do
   gem 'vcr', '~> 2.9.0'
   gem 'webmock', '~> 1.17.4'
+  gem 'launchy', '~> 2.4.2'
 end
 
 group :production do
@@ -48,6 +49,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'database_cleaner', '~> 1.3.0'
+
+group :development, :test do
+  gem 'jazz_hands'
+end
 
 # Use unicorn as the app server
 # gem 'unicorn'

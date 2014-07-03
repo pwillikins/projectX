@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 11 May 2014 18:27:49 GMT
+      - Thu, 03 Jul 2014 16:06:55 GMT
       Status:
       - 200 OK
       Content-Type:
@@ -27,7 +27,7 @@ http_interactions:
       Cache-Control:
       - private, max-age=3600
       Expires:
-      - Sun, 11 May 2014 19:27:49 GMT
+      - Thu, 03 Jul 2014 17:06:55 GMT
       Vary:
       - Accept-Encoding
       Connection:
@@ -37,12 +37,9 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"resultsPage":{"status":"ok","results":{"artist":[{"displayName":"Dr.
-        Dog","onTourUntil":"2014-08-16","identifier":[{"eventsHref":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295/calendar.json","setlistsHref":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295/setlists.json","mbid":"e9aed5e5-ed35-4244-872e-194862290295","href":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295.json"}],"uri":"http://www.songkick.com/artists/42687-dr-dog?utm_source=27408&utm_medium=partner","id":42687},{"displayName":"Dr.Dog","onTourUntil":null,"uri":"http://www.songkick.com/artists/3182151-drdog?utm_source=27408&utm_medium=partner","identifier":[],"id":3182151},{"identifier":[],"uri":"http://www.songkick.com/artists/3381811-scott-mcmicken-of-dr-dog?utm_source=27408&utm_medium=partner","onTourUntil":null,"displayName":"Scott
+        Dog","identifier":[{"mbid":"e9aed5e5-ed35-4244-872e-194862290295","eventsHref":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295/calendar.json","href":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295.json","setlistsHref":"http://api.songkick.com/api/3.0/artists/mbid:e9aed5e5-ed35-4244-872e-194862290295/setlists.json"}],"uri":"http://www.songkick.com/artists/42687-dr-dog?utm_source=27408&utm_medium=partner","onTourUntil":"2014-09-13","id":42687},{"identifier":[],"uri":"http://www.songkick.com/artists/3381811-scott-mcmicken-of-dr-dog?utm_source=27408&utm_medium=partner","onTourUntil":null,"displayName":"Scott
         Mcmicken of Dr. Dog","id":3381811},{"identifier":[],"uri":"http://www.songkick.com/artists/3300301-dr-dog-and-the-mother-hips?utm_source=27408&utm_medium=partner","onTourUntil":null,"displayName":"Dr.
-        Dog & the Mother Hips","id":3300301},{"onTourUntil":"2014-06-08","identifier":[],"uri":"http://www.songkick.com/artists/7864009-dr-dog-the-vogue?utm_source=27408&utm_medium=partner","displayName":"Dr.
-        Dog @ the Vogue","id":7864009},{"identifier":[],"uri":"http://www.songkick.com/artists/579810-mother-truckers-dr-dog-and-the-high-strung?utm_source=27408&utm_medium=partner","onTourUntil":null,"displayName":"The
-        Mother Truckers Dr Dog And The High Strung","id":579810},{"onTourUntil":null,"displayName":"88.1
-        Kdhx Welcomes Dr. Dog","identifier":[],"uri":"http://www.songkick.com/artists/7442444-881-kdhx-welcomes-dr-dog?utm_source=27408&utm_medium=partner","id":7442444}]},"perPage":50,"page":1,"totalEntries":8}}'
+        Dog & the Mother Hips","id":3300301},{"displayName":"Dr. Dog @ the Vogue","identifier":[],"uri":"http://www.songkick.com/artists/7864009-dr-dog-the-vogue?utm_source=27408&utm_medium=partner","onTourUntil":null,"id":7864009}]},"perPage":50,"page":1,"totalEntries":4}}'
     http_version: 
-  recorded_at: Sun, 11 May 2014 18:27:50 GMT
+  recorded_at: Thu, 03 Jul 2014 16:06:55 GMT
 recorded_with: VCR 2.9.0
