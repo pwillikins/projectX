@@ -2,8 +2,8 @@
   <div class="jumbotron">
     <div class="row">
       <ul style="color:#F7F7F7">
-        <li><h1 style="text-align: center"><%= @display_name %></h1></li>
-        <li><h2 style="text-align: center;color:#000000"><%= @venue %> - <%= @location %></h2></li>
+        <li><h1 style="text-align: center"><%= @show_info[:display_name] %></h1></li>
+        <li><h2 style="text-align: center;color:#000000"><%= @show_info[:venue] %> - <%= @show_info[:location] %></h2></li>
         <hr>
         <table align="center" class="table table-bordered">
           <tr>
@@ -16,7 +16,7 @@
                 <td><input type="checkbox" id="songs" name="songs[<%= song %>]" value="<%= song %>"></td>
                 <td><%= x.label song %></td>
               </tr>
-              <input type="hidden" name="artist" value="<%= @display_name %>"/>
+              <input type="hidden" name="artist" value="<%= @show_info[:display_name] %>"/>
               <input type="hidden" name="gig_id" value="<%= @gig_id %>"/>
             <% end %>
             <tr>

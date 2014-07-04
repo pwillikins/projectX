@@ -5,14 +5,14 @@
   <div class="panel-body">
     <div class="table-responsive">
       <table class="table" align="center">
+        <th>Total Votes</th>
         <th>Song Name</th>
         <th>Artist Name</th>
-        <th>Total Votes</th>
         <% @user_votes.each do |array, count| %>
           <tr>
+            <td><%= count %></td>
             <td><%= array.last %></td>
             <td><%= array.first %></td>
-            <td><%= count %></td>
           </tr>
         <% end %>
       </table>
