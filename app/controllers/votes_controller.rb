@@ -22,24 +22,27 @@ class VotesController < ApplicationController
                        gig_id: params[:gig_id])
       @vote.save
     end
-
     flash[:notice] = "Your votes have been submitted!"
     redirect_to votes_for_gig_path(gig_id: params[:gig_id])
   end
 
+
   def votes_for_gig
+    @name = []
     gig_id = params[:gig_id]
-    @show_votes = Vote.where(gig_id: gig_id)
-    # .group(:artist_name, :song_name).count
+    @show_votes = Vote.where(gig_id: gig_id).group(:artist_name, :song_name).count
+    @show_votes.each do |array, count|
+       @name << array.first
+    end
   end
 
   def votes_for_user
     user_id = @current_user.id
-    @user_votes = Vote.where(user_id: user_id)
+    @user_votes = Vote.where(user_id: user_id).group(:artist_name, :song_name).count
+
   end
 
   def show
 
   end
 end
-

@@ -12,6 +12,15 @@
   box-sizing: border-box;
 }
 
+#footer {
+  background-color: #000000;
+  bottom: 0;
+  height: 35px;
+  position: fixed;
+  width: 100%;
+  color: #ffffff;
+}
+
 body {
   background-color: #ffffff;
 }
@@ -36,7 +45,6 @@ ul {
     float: right;
   }
 }
-
 
 img {
   display: block;
@@ -130,6 +138,7 @@ a {
 #user_name {
   color: white;
   padding-right: 5px;
+  padding-left: 4px
 }
 
 #login {
@@ -158,3 +167,9 @@ a {
 #my_votes_link {
   padding-left: 6px;
 }
+
+input[type=checkbox] {
+  zoom:1.5;
+}
+
+

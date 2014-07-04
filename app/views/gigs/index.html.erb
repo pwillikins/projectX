@@ -22,7 +22,10 @@
           <td><%= event[:venue] %></td>
           <td><%= event[:location] %></td>
           <td><%= link_to "Vote Now!",
-                          votes_new_path(venue: venue, gig_id: event[:gig_id], location: event[:location], artist: @display_name),
+                          votes_new_path(venue: venue,
+                                         gig_id: event[:gig_id],
+                                         location: event[:location],
+                                         artist: @display_name),
                           method: :post,
                           :style => "color:red" %></td>
           <td><%= link_to "See All Votes For This Concert",
