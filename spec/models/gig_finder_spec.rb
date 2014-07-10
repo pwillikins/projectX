@@ -1,60 +1,35 @@
 require 'spec_helper'
 
 describe GigFinder do
-  it "can find artist id" do
-    VCR.use_cassette("gig_finder/find_artist_id") do
-      finder = GigFinder.new
+  it "can search for artist events" do
+    VCR.use_cassette("gig_finder/find_gigs_for_artist") do
+      finder = GigFinder.new.find_gigs_for_artist("pepper")
 
-      expected_artist_id = 42687
-
-      expect(finder.find_artist_id("Dr_Dog")).to eq expected_artist_id
-    end
-  end
-
-  it "can search for artist events using an artist id" do
-    VCR.use_cassette("gig_finder/") do
-      finder = GigFinder.new
-
-      expected_artist_events = {
-        "Western Gateway Park" => {
-          :gig_id => 20290563,
-          :venue => "Western Gateway Park",
-          :location => "Des Moines, IA, US"
-        }
-      }
-
-      expect(finder.find_events(42687)).to include expected_artist_events
+        expect(finder.results.map {|x| x.display_name}).to include "Dirty Heads and Pepper with Katastro at Cabooze (July 16, 2014)"
     end
   end
 
   it "can return album artwork by artist" do
-    VCR.use_cassette("gig_finder/find_image") do
-      finder = GigFinder.new
+    VCR.use_cassette("artist_info/find_display_image") do
+      finder = ArtistInfo.new("311")
 
-      expected_image = "http://userserve-ak.last.fm/serve/500/35216679/311.jpg"
-
-
-      expect(finder.find_image("311")).to include expected_image
+      expect(finder.find_artist_image).to include "http://userserve-ak.last.fm/serve/_/386371.jpg"
     end
   end
 
   it "returns the name of the artist" do
-    VCR.use_cassette("gig_finder/find_name") do
-      finder = GigFinder.new
+    VCR.use_cassette("gig_finder/find_display_name") do
+      finder = ArtistInfo.new("skrillex")
 
-      expected_name = "Skrillex"
-
-      expect(finder.find_artist_name("skrillex")).to eq expected_name
+      expect(finder.find_display_name).to eq "Skrillex"
     end
   end
 
-  it "returns a list of the artists votes" do
-    VCR.use_cassette("song_finder/find_songs") do
+  it "returns a list of the artists songs" do
+    VCR.use_cassette("song_finder/find_songs_for_artist") do
       finder = SongFinder.new
 
-      expected = "Lonesome"
-
-      expect(finder.find_songs_by_artist("dr dog")).to include expected
+      expect(finder.find_songs_for_artist("dr dog")).to include "Lonesome"
     end
   end
 end

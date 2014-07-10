@@ -4,12 +4,9 @@ class GigsController < ApplicationController
 
   def index
     artist_name = params[:band_name]
-    artist_id = GigFinder.new.find_artist_id(artist_name)
-    @display_name = GigFinder.new.find_artist_name(artist_name)
-    @gigs = GigFinder.new.find_events(artist_id)
-    @image_url = GigFinder.new.find_image(artist_name)
-
-    # remote = Songkickr::Remote.new API_KEY
-    # @results = remote.events(type: "concert", artists: params[:band_name])
+    artist = ArtistInfo.new(artist_name)
+    @gigs = GigFinder.new.find_gigs_for_artist(artist_name)
+    @image_url = artist.find_artist_image
+    @display_name = artist.find_display_name
   end
 end

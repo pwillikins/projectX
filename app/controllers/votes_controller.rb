@@ -5,11 +5,9 @@ class VotesController < ApplicationController
   def new
     @gig_id = params[:gig_id]
     @vote = Vote.new
-    display_name = params[:artist]
-    venue = params[:venue]
-    location = params[:location]
-    @song_list = SongFinder.new.find_songs_by_artist(params[:artist])
-    @show_info = {display_name: display_name, venue: venue, location: location}
+    @display_name = params[:artist]
+    @gig_display_name = params[:gig_display_name]
+    @song_list = SongFinder.new.find_songs_for_artist(@display_name)
   end
 
   def create

@@ -3,33 +3,20 @@ require 'vcr'
 
 feature "User can Vote" do
   scenario "user can search for gigs, vote for their corresponding songs and view them" do
-    VCR.use_cassette('gig_finder/find_events') do
+    VCR.use_cassette('gig_finder/find_songs_for_artist') do
       register_user
 
-      fill_in 'band_name', with: 'Parliament Funkadelic'
+      fill_in 'band_name', with: 'Dirty Heads'
       click_button 'Search For Gigs'
-      expect(page).to have_content 'The Forum', 'London, UK'
+      expect(page).to have_content 'Dirty Heads Upcoming Shows Venue Location Cast Your Vote Total Votes'
       click_link 'Vote Now!', match: :first
 
-      expect(page).to have_content 'The Forum'
+      expect(page).to have_content 'Dirty Heads at Fingerprints Records (July 10, 2014)'
       check 'songs', match: :first
       click_button 'submit'
 
       expect(page).to have_content "Your votes have been submitted!"
-      click_link 'My Votes'
-      expect(page).to have_content "Gettin' It"
-    end
-  end
-
-  scenario "user can view all votes for single gig" do
-    VCR.use_cassette('gig_finder/find_events') do
-      register_user
-
-      fill_in 'band_name', with: 'Parliament Funkadelic'
-      click_button 'Search For Gigs'
-      expect(page).to have_content 'The Forum', 'London, UK'
-      click_link 'See All Votes For This Concert', match: :first
-      expect(page).to have_content "Voted List"
+      expect(page).to have_content "Dance All Night (feat. Matisyahu)"
     end
   end
 end

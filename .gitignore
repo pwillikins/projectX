@@ -15,5 +15,6 @@
 /log/*.log
 /tmp
 
-# Ignore all files within .env
+# Ignore all files within .env & .echowrap
 .env
+.echowrap

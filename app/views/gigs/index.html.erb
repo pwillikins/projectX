@@ -17,19 +17,18 @@
         <th>Cast Your Vote</th>
         <th>Total Votes</th>
       </tr>
-      <% @gigs.each do |venue, event| %>
+      <% @gigs.results.each do |gig| %>
         <tr>
-          <td><%= event[:venue] %></td>
-          <td><%= event[:location] %></td>
+          <td><%= gig.display_name %></td>
+          <td><%= gig.venue.display_name %>, <%= gig.venue.metro_area.state %>, <%= gig.venue.metro_area.country %></td>
           <td><%= link_to "Vote Now!",
-                          votes_new_path(venue: venue,
-                                         gig_id: event[:gig_id],
-                                         location: event[:location],
+                          votes_new_path(gig_display_name: gig.display_name,
+                                         gig_id: gig.id,
                                          artist: @display_name),
                           method: :post,
                           :style => "color:red" %></td>
           <td><%= link_to "See All Votes For This Concert",
-                          votes_for_gig_path(gig_id: event[:gig_id]),
+                          votes_for_gig_path(gig_id: gig.id),
                           :style => "color:blue" %></td>
         </tr>
       <% end %>
