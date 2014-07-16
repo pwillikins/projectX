@@ -4,4 +4,5 @@ class Vote < ActiveRecord::Base
   belongs_to :user
 
   validates :artist_name, :song_name, :presence => true
+
 end

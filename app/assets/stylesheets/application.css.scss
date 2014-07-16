@@ -29,6 +29,7 @@ body.homepage {
   height: 100%;
   background-image: asset-url("concert.jpeg");
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -40,7 +41,7 @@ ul {
   float: right;
   list-style: none;
   margin-right: 25px;
-  margin-top: 38px;
+  margin-top: 36px;
   color: white;
   li {
     float: right;
@@ -51,9 +52,8 @@ img {
   width: 90%;
   height: auto;
   display: block;
-  margin-left: auto;
   margin-right: auto;
-
+  margin-left: auto;
 }
 
 tr:hover {
@@ -109,11 +109,6 @@ button.btn-default {
 .jumbotron h2 {
   color: #000000;
   margin-bottom: 5px;
-}
-
-image {
-  max-height: 10px;
-  max-width: 10px;
 }
 
 .welcome_flash {
@@ -174,5 +169,3 @@ a {
 input[type=checkbox] {
   zoom: 1.5;
 }
-
-

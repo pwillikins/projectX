@@ -15,21 +15,21 @@ class VotesController < ApplicationController
     artist_name = params[:artist]
 
     songs.each do |song|
-      vote = Vote.new(user_id: @current_user.id,
+      vote = Vote.new(user_id: current_user.id,
                       song_name: song,
                       artist_name: artist_name,
                       gig_id: params[:gig_id])
       vote.save
+      flash[:notice] = "Your votes have been submitted!"
+      redirect_to votes_for_gig_path(gig_id: params[:gig_id])
     end
-    flash[:notice] = "Your votes have been submitted!"
-    redirect_to votes_for_gig_path(gig_id: params[:gig_id])
   end
 
 
   def votes_for_gig
     @name = []
     gig_id = params[:gig_id]
-    @show_votes = Vote.where(gig_id: gig_id).group(:artist_name, :song_name).count
+    @show_votes = Vote.where(gig_id: gig_id).group(:artist_name, :song_name).count.sort_by { |_, v| v }.reverse
     @show_votes.each do |array, _|
       @name << array.first
     end

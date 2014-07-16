@@ -6,7 +6,7 @@ class GigFinder
   end
 
   def find_gigs_for_artist(artist_name)
-     @remote.events(artist_name: artist_name)
+    @remote.events(artist_name: artist_name)
   end
 end
 
