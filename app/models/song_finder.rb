@@ -6,7 +6,7 @@ class SongFinder
    song_data = JSON.parse(response.body)
 
     song_data["tracks"].select do |song|
-      songs << song["name"]
+      songs << song["name"].downcase
     end
     songs.uniq
   end

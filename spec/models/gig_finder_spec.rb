@@ -29,7 +29,7 @@ describe GigFinder do
     VCR.use_cassette("song_finder/find_songs_for_artist") do
       finder = SongFinder.new
 
-      expect(finder.find_songs_for_artist("dr dog")).to include "Lonesome"
+      expect(finder.find_songs_for_artist("dr dog")).to include "lonesome"
     end
   end
 end

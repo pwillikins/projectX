@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Jul 2014 02:25:03 GMT
+      - Fri, 18 Jul 2014 22:58:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -37,28 +37,64 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Etag:
-      - '1404842410'
+      - '1405620011'
       Expires:
-      - Fri, 11 Jul 2014 02:20:41 GMT
+      - Sat, 19 Jul 2014 22:58:01 GMT
       Last-Modified:
-      - Tue, 08 Jul 2014 18:00:10 GMT
+      - Thu, 17 Jul 2014 18:00:11 GMT
     body:
       encoding: UTF-8
-      string: '{"info": {"num_results": 513, "limit": 100, "offset": 0, "query": "dr
-        dog", "type": "track", "page": 1}, "tracks": [{"album": {"released": "2007",
-        "href": "spotify:album:1izVgVm0j6uKThFu4JIHmx", "name": "Heart It Races",
-        "availability": {"territories": "CA MX US"}}, "name": "Heart it Races - As
-        Played By Dr Dog", "popularity": "0.64", "external-ids": [{"type": "isrc",
-        "id": "US3R40713505"}], "length": 231.88, "href": "spotify:track:0djLkFyFVazsZQBcw9HeDj",
+      string: '{"info": {"num_results": 578, "limit": 100, "offset": 0, "query": "dr
+        dog", "type": "track", "page": 1}, "tracks": [{"album": {"released": "1999",
+        "href": "spotify:album:5csXMdS69VOvh8MjyfwkjB", "name": "2001", "availability":
+        {"territories": "AD AR AT AU BE BG BO BR CH CL CO CR CY CZ DE DK DO EC EE
+        ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MY NI NL NO NZ PA
+        PE PH PL PT PY RO SE SG SI SK SV TR TW UY"}}, "name": "The Next Episode",
+        "external-ids": [{"type": "isrc", "id": "USIR19915078"}], "popularity": "0.76",
+        "explicit": true, "length": 161.506, "href": "spotify:track:20LxTsa6936zOlzTWqoPVt",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}],
+        "track-number": "11"}, {"album": {"released": "1999", "href": "spotify:album:5csXMdS69VOvh8MjyfwkjB",
+        "name": "2001", "availability": {"territories": "AD AR AT AU BE BG BO BR CH
+        CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
+        LU LV MC MT MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW UY"}},
+        "name": "Still D.R.E.", "external-ids": [{"type": "isrc", "id": "USIR19905031"}],
+        "popularity": "0.74", "explicit": true, "length": 270.651, "href": "spotify:track:6ltPEsP4edATzvinHOzvk2",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}],
+        "track-number": "4"}, {"album": {"released": "1999", "href": "spotify:album:7q2B4M5EiBkqrlsNW8lB7N",
+        "name": "2001", "availability": {"territories": "CA MX US"}}, "name": "The
+        Next Episode", "popularity": "0.72", "external-ids": [{"type": "isrc", "id":
+        "USIR19915078"}], "length": 161.506, "href": "spotify:track:4LwU4Vp6od3Sb08CsP99GC",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}],
+        "track-number": "11"}, {"album": {"released": "2007", "href": "spotify:album:1izVgVm0j6uKThFu4JIHmx",
+        "name": "Heart It Races", "availability": {"territories": "CA MX US"}}, "name":
+        "Heart it Races - As Played By Dr Dog", "popularity": "0.65", "external-ids":
+        [{"type": "isrc", "id": "US3R40713505"}], "length": 231.88, "href": "spotify:track:0djLkFyFVazsZQBcw9HeDj",
         "artists": [{"href": "spotify:artist:60eT7q88iLWKnuSXed1AGr", "name": "Architecture
-        In Helsinki"}], "track-number": "5"}, {"album": {"released": "2012", "href":
-        "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U", "name": "Be The Void", "availability":
-        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
-        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Lonesome",
-        "popularity": "0.58", "external-ids": [{"type": "isrc", "id": "USEP41130003"}],
-        "length": 198.44, "href": "spotify:track:75LWbOIBdIE8a4tyBQMKhH", "artists":
-        [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
+        In Helsinki"}], "track-number": "5"}, {"album": {"released": "1999", "href":
+        "spotify:album:7q2B4M5EiBkqrlsNW8lB7N", "name": "2001", "availability": {"territories":
+        "CA MX US"}}, "name": "Still D.R.E.", "popularity": "0.7", "external-ids":
+        [{"type": "isrc", "id": "USIR19905031"}], "length": 270.586, "href": "spotify:track:503OTo2dSqe7qk76rgsbep",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}],
+        "track-number": "4"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
+        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
+        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
+        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
+        SV TR TW US UY"}}, "name": "Lonesome", "popularity": "0.58", "external-ids":
+        [{"type": "isrc", "id": "USEP41130003"}], "length": 198.44, "href": "spotify:track:75LWbOIBdIE8a4tyBQMKhH",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "1"}, {"album": {"released": "2010", "href": "spotify:album:0TqOftxXYWAGoFlk8z1yK4",
+        "name": "Kush", "availability": {"territories": "AR AT AU BE BG BO BR CH CL
+        CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LT LU LV
+        MT MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW"}}, "name": "Kush
+        - Main", "external-ids": [{"type": "isrc", "id": "USUM71028121"}], "popularity":
+        "0.66", "explicit": true, "length": 235.12, "href": "spotify:track:0D5ER6UGojHVHVVJV0QdY8",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"},
+        {"href": "spotify:artist:0z4gvV4rjIZ9wHck67ucSV", "name": "Akon"}], "track-number":
         "1"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
         "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
         AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
@@ -101,10 +137,17 @@ http_interactions:
         {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
         EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
         NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "That Old Black
-        Hole", "popularity": "0.52", "external-ids": [{"type": "isrc", "id": "USEP41130004"}],
+        Hole", "popularity": "0.53", "external-ids": [{"type": "isrc", "id": "USEP41130004"}],
         "length": 201.08, "href": "spotify:track:27HUDvaWvjlrLhcsMDWgtd", "artists":
         [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "2"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
+        "2"}, {"album": {"released": "2010", "href": "spotify:album:7r3ZRX5UIxKteuTMu7vL7B",
+        "name": "Kush", "availability": {"territories": "CA MX US"}}, "name": "Kush
+        - Main", "external-ids": [{"type": "isrc", "id": "USUM71028121"}], "popularity":
+        "0.62", "explicit": true, "length": 235.12, "href": "spotify:track:1U8Ho1nOzKXYDvfigOuHG4",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"},
+        {"href": "spotify:artist:0z4gvV4rjIZ9wHck67ucSV", "name": "Akon"}], "track-number":
+        "1"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
         "name": "Fate", "availability": {"territories": "AD AR AT AU BE BG BO BR CA
         CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI
         LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW
@@ -126,37 +169,73 @@ http_interactions:
         "0.49", "external-ids": [{"type": "isrc", "id": "USEP40937010"}], "length":
         184.826, "href": "spotify:track:1lKiMMQstWe5dDgR1RbHme", "artists": [{"href":
         "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "10"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
-        "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
-        AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
-        HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
-        SE SG SI SK SV TR TW US UY"}}, "name": "Distant Light", "popularity": "0.45",
-        "external-ids": [{"type": "isrc", "id": "USEP41318004"}], "length": 204.212,
-        "href": "spotify:track:1mVKhqNZHi9QAFkAXaGb0x", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "4"}, {"album": {"released": "2013",
+        "10"}, {"album": {"released": "2000", "href": "spotify:album:7uYAa3GMb8TSsK5lKE3Cbn",
+        "name": "The Marshall Mathers LP - Tour Edition", "availability": {"territories":
+        "AD AR AT AU BE BG BO BR CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MY NI NL NO NZ PA PE PH PL PT PY RO
+        SE SG SI SK SV TR TW UY"}}, "name": "Bitch Please II", "external-ids": [{"type":
+        "isrc", "id": "USIR10000591"}], "popularity": "0.56", "explicit": true, "length":
+        288.2, "href": "spotify:track:6YjKAkDYmlasMqYw73iB0w", "artists": [{"href":
+        "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR", "name": "Eminem"}, {"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7",
+        "name": "Dr. Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name":
+        "Snoop Dogg"}, {"href": "spotify:artist:4tgzAfA0WgULfmjaVy0sNd", "name": "Alvin
+        \"Xzibit\" Joiner"}, {"href": "spotify:artist:1Oa0bMld0A3u5OTYfMzp5h", "name":
+        "Nate Dogg"}], "track-number": "15"}, {"album": {"released": "1999", "href":
+        "spotify:album:5csXMdS69VOvh8MjyfwkjB", "name": "2001", "availability": {"territories":
+        "AD AR AT AU BE BG BO BR CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MY NI NL NO NZ PA PE PH PL PT PY RO
+        SE SG SI SK SV TR TW UY"}}, "name": "Fuck You", "external-ids": [{"type":
+        "isrc", "id": "USIR19915067"}], "popularity": "0.56", "explicit": true, "length":
+        205.466, "href": "spotify:track:5t6bYzld1vAXUEs9GAA149", "artists": [{"href":
+        "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr. Dre"}, {"href": "spotify:artist:5HoW37rDABS2VAPulKDg7s",
+        "name": "Devin a\/k\/a The Dude"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG",
+        "name": "Snoop Dogg"}], "track-number": "3"}, {"album": {"released": "2013",
         "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw", "name": "B-Room [Deluxe Edition]",
         "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY
         CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT
         MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name":
-        "Minding the Usher", "popularity": "0.45", "external-ids": [{"type": "isrc",
-        "id": "USEP41318003"}], "length": 206.784, "href": "spotify:track:7rEBlglgQxUlQH6B2o3DJU",
+        "Distant Light", "popularity": "0.45", "external-ids": [{"type": "isrc", "id":
+        "USEP41318004"}], "length": 204.212, "href": "spotify:track:1mVKhqNZHi9QAFkAXaGb0x",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "3"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
-        "name": "Fate", "availability": {"territories": "AD AR AT AU BE BG BO BR CA
-        CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI
-        LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW
-        US UY"}}, "name": "The Rabbit, the Bat, & the Reindeer", "popularity": "0.44",
-        "external-ids": [{"type": "isrc", "id": "USNNZ0800005"}], "length": 209.133,
-        "href": "spotify:track:02hDdfBdaJhyVHQkTojXQo", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "5"}, {"album": {"released": "2012",
-        "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U", "name": "Be The Void", "availability":
+        Dog"}], "track-number": "4"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
+        "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
+        AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
+        HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
+        SE SG SI SK SV TR TW US UY"}}, "name": "Minding the Usher", "popularity":
+        "0.45", "external-ids": [{"type": "isrc", "id": "USEP41318003"}], "length":
+        206.784, "href": "spotify:track:7rEBlglgQxUlQH6B2o3DJU", "artists": [{"href":
+        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
+        "3"}, {"album": {"released": "1999", "href": "spotify:album:7q2B4M5EiBkqrlsNW8lB7N",
+        "name": "2001", "availability": {"territories": "CA MX US"}}, "name": "Fuck
+        You", "popularity": "0.54", "external-ids": [{"type": "isrc", "id": "USIR19915067"}],
+        "length": 205.453, "href": "spotify:track:4FI0rdztOAYJZMupujL5Gp", "artists":
+        [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr. Dre"}, {"href":
+        "spotify:artist:5HoW37rDABS2VAPulKDg7s", "name": "Devin a\/k\/a The Dude"},
+        {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}],
+        "track-number": "3"}, {"album": {"released": "2000", "href": "spotify:album:6t7956yu5zYf5A829XRiHC",
+        "name": "The Marshall Mathers LP", "availability": {"territories": "CA MX
+        US"}}, "name": "Bitch Please II", "popularity": "0.54", "external-ids": [{"type":
+        "isrc", "id": "USIR10000591"}], "length": 288.2, "href": "spotify:track:7lgvU7WnwcNZ8dbGUz8yhP",
+        "artists": [{"href": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR", "name": "Eminem"},
+        {"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr. Dre"}, {"href":
+        "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}, {"href": "spotify:artist:113356t6NgreOfTzM1DuVC",
+        "name": "Alvin Joiner"}, {"href": "spotify:artist:1Oa0bMld0A3u5OTYfMzp5h",
+        "name": "Nate Dogg"}], "track-number": "15"}, {"album": {"released": "2008",
+        "href": "spotify:album:7deW5FlwTnjalzBDAftgwf", "name": "Fate", "availability":
         {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
         EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Do The Trick",
-        "popularity": "0.43", "external-ids": [{"type": "isrc", "id": "USEP41130008"}],
-        "length": 272.413, "href": "spotify:track:7eIJBJtlCV0aaubMkyvmCS", "artists":
-        [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "6"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "The Rabbit,
+        the Bat, & the Reindeer", "popularity": "0.44", "external-ids": [{"type":
+        "isrc", "id": "USNNZ0800005"}], "length": 209.133, "href": "spotify:track:02hDdfBdaJhyVHQkTojXQo",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "5"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
+        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
+        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
+        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
+        SV TR TW US UY"}}, "name": "Do The Trick", "popularity": "0.44", "external-ids":
+        [{"type": "isrc", "id": "USEP41130008"}], "length": 272.413, "href": "spotify:track:7eIJBJtlCV0aaubMkyvmCS",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "6"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
         "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
         AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
         HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
@@ -167,7 +246,7 @@ http_interactions:
         "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
         AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
         HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
-        SE SG SI SK SV TR TW US UY"}}, "name": "Long Way Down", "popularity": "0.43",
+        SE SG SI SK SV TR TW US UY"}}, "name": "Long Way Down", "popularity": "0.42",
         "external-ids": [{"type": "isrc", "id": "USEP41318007"}], "length": 231.672,
         "href": "spotify:track:6ol1j9pLV9hxWZdAFCNkvq", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
         "name": "Dr. Dog"}], "track-number": "7"}, {"album": {"released": "2013",
@@ -178,7 +257,24 @@ http_interactions:
         "Too Weak to Ramble", "popularity": "0.42", "external-ids": [{"type": "isrc",
         "id": "USEP41318006"}], "length": 236.512, "href": "spotify:track:3WOlVclplZm2a4avNSxhzE",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "6"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
+        Dog"}], "track-number": "6"}, {"album": {"released": "1999", "href": "spotify:album:5csXMdS69VOvh8MjyfwkjB",
+        "name": "2001", "availability": {"territories": "AD AR AT AU BE BG BO BR CH
+        CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
+        LU LV MC MT MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW UY"}},
+        "name": "Bitch Niggaz", "external-ids": [{"type": "isrc", "id": "USIR19915082"}],
+        "popularity": "0.52", "explicit": true, "length": 253.6, "href": "spotify:track:4DhGh3CU7dzZLRu2bIrrIq",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:3np2OYRZAgI4e6lxeGmGr8", "name": "Hittman"},
+        {"href": "spotify:artist:4xko5t5site4jVwopoCF21", "name": "Six-Two"}, {"href":
+        "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}], "track-number":
+        "13"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
+        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
+        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
+        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
+        SV TR TW US UY"}}, "name": "Get Away", "popularity": "0.41", "external-ids":
+        [{"type": "isrc", "id": "USEP41130007"}], "length": 240.733, "href": "spotify:track:1s7VaN348EVOIFC1TdQ3pN",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "5"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
         "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
         AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
         HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
@@ -192,14 +288,7 @@ http_interactions:
         SE SG SI SK SV TR TW US UY"}}, "name": "Cuckoo", "popularity": "0.41", "external-ids":
         [{"type": "isrc", "id": "USEP41318008"}], "length": 244.865, "href": "spotify:track:2Cs2aG7oTZZBWLXi3uWa9w",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "8"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
-        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Get Away", "popularity": "0.41", "external-ids":
-        [{"type": "isrc", "id": "USEP41130007"}], "length": 240.733, "href": "spotify:track:1s7VaN348EVOIFC1TdQ3pN",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "5"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
+        Dog"}], "track-number": "8"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
         "name": "Fate", "availability": {"territories": "AD AR AT AU BE BG BO BR CA
         CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI
         LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW
@@ -221,29 +310,29 @@ http_interactions:
         SE SG SI SK SV TR TW US UY"}}, "name": "Rock & Roll", "popularity": "0.4",
         "external-ids": [{"type": "isrc", "id": "USEP41318010"}], "length": 187.848,
         "href": "spotify:track:4lyke7NF0ifPz6AZqHxmNL", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "10"}, {"album": {"released": "2007",
-        "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz", "name": "We All Belong", "availability":
+        "name": "Dr. Dog"}], "track-number": "10"}, {"album": {"released": "2012",
+        "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U", "name": "Be The Void", "availability":
         {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
         EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "My Old Ways",
-        "popularity": "0.4", "external-ids": [{"type": "isrc", "id": "USA560616834"}],
-        "length": 210.88, "href": "spotify:track:1Q7opUCgTpG73ooWhfaEKg", "artists":
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Vampire",
+        "popularity": "0.4", "external-ids": [{"type": "isrc", "id": "USEP41130009"}],
+        "length": 266.666, "href": "spotify:track:0nuzP1piXnVvKMFS1a0Urn", "artists":
         [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "2"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
-        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Vampire", "popularity": "0.4", "external-ids":
-        [{"type": "isrc", "id": "USEP41130009"}], "length": 266.666, "href": "spotify:track:0nuzP1piXnVvKMFS1a0Urn",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "7"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
+        "7"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
         "name": "Fate", "availability": {"territories": "AD AR AT AU BE BG BO BR CA
         CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI
         LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW
         US UY"}}, "name": "The Old Days", "popularity": "0.4", "external-ids": [{"type":
         "isrc", "id": "USNNZ0800003"}], "length": 221.92, "href": "spotify:track:6ePwWX9pOVIUBeyQSqwi02",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "3"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
+        Dog"}], "track-number": "3"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
+        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
+        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
+        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
+        SV TR TW US UY"}}, "name": "My Old Ways", "popularity": "0.4", "external-ids":
+        [{"type": "isrc", "id": "USA560616834"}], "length": 210.88, "href": "spotify:track:1Q7opUCgTpG73ooWhfaEKg",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "2"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
         "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
         BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
         IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
@@ -257,7 +346,62 @@ http_interactions:
         US UY"}}, "name": "The Beach", "popularity": "0.4", "external-ids": [{"type":
         "isrc", "id": "USNNZ0800010"}], "length": 221.626, "href": "spotify:track:7GgCmEc2kSCLa3qRNBO6h8",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "10"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
+        Dog"}], "track-number": "10"}, {"album": {"released": "1999", "href": "spotify:album:7q2B4M5EiBkqrlsNW8lB7N",
+        "name": "2001", "availability": {"territories": "CA MX US"}}, "name": "Bitch
+        Niggaz", "popularity": "0.5", "external-ids": [{"type": "isrc", "id": "USIR19915082"}],
+        "length": 253.56, "href": "spotify:track:5XkeTGKcCkGF8l6fA9YpsS", "artists":
+        [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr. Dre"}, {"href":
+        "spotify:artist:3np2OYRZAgI4e6lxeGmGr8", "name": "Hittman"}, {"href": "spotify:artist:4xko5t5site4jVwopoCF21",
+        "name": "Six-Two"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name":
+        "Snoop Dogg"}], "track-number": "13"}, {"album": {"released": "2012", "href":
+        "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U", "name": "Be The Void", "availability":
+        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
+        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Big Girl",
+        "popularity": "0.39", "external-ids": [{"type": "isrc", "id": "USEP41130011"}],
+        "length": 303.026, "href": "spotify:track:14Vve3anG210IlhI1fxa2J", "artists":
+        [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
+        "9"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
+        "name": "Fate", "availability": {"territories": "AD AR AT AU BE BG BO BR CA
+        CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI
+        LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW
+        US UY"}}, "name": "From", "popularity": "0.39", "external-ids": [{"type":
+        "isrc", "id": "USNNZ0800007"}], "length": 279.16, "href": "spotify:track:3kl9RU3aQj41YJ4xUVfXwr",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "7"}, {"album": {"released": "2000", "href": "spotify:album:5xifZlByZcZecgkP7sYSoW",
+        "name": "The Marshall Mathers LP", "availability": {"territories": "AD AR
+        AT AU BE BG BO BR CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN
+        HR HU IE IS IT LI LT LU LV MC MT MY NI NL NO NZ PA PE PH PL PT PY RO SG SI
+        SK SV TR TW UY"}}, "name": "Bitch Please II", "external-ids": [{"type": "isrc",
+        "id": "USIR10000591"}], "popularity": "0.49", "explicit": true, "length":
+        288.266, "href": "spotify:track:3q3GlTG8nU35F4OxxFz8Rv", "artists": [{"href":
+        "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR", "name": "Eminem"}, {"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7",
+        "name": "Dr. Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name":
+        "Snoop Dogg"}, {"href": "spotify:artist:4tgzAfA0WgULfmjaVy0sNd", "name": "Alvin
+        \"Xzibit\" Joiner"}, {"href": "spotify:artist:1Oa0bMld0A3u5OTYfMzp5h", "name":
+        "Nate Dogg"}], "track-number": "15"}, {"album": {"released": "2008", "href":
+        "spotify:album:7deW5FlwTnjalzBDAftgwf", "name": "Fate", "availability": {"territories":
+        "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR
+        GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT
+        PY RO SE SG SI SK SV TR TW US UY"}}, "name": "The Ark", "popularity": "0.39",
+        "external-ids": [{"type": "isrc", "id": "USNNZ0800006"}], "length": 217.52,
+        "href": "spotify:track:7aNX1HyP4VgmMBPKypONN3", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "6"}, {"album": {"released": "2013",
+        "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw", "name": "B-Room [Deluxe Edition]",
+        "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY
+        CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT
+        MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name":
+        "Can''t Remember", "popularity": "0.39", "external-ids": [{"type": "isrc",
+        "id": "USEP41318014"}], "length": 233.548, "href": "spotify:track:5WYeob0nfBAEM8tkt8BnGo",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "14"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
+        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
+        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
+        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
+        SV TR TW US UY"}}, "name": "Warrior Man", "popularity": "0.39", "external-ids":
+        [{"type": "isrc", "id": "USEP41130002"}], "length": 297.56, "href": "spotify:track:0GbhSAJNY1we65y33h9QsA",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "11"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
         "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
         AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
         HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
@@ -268,90 +412,55 @@ http_interactions:
         "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
         BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
         IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Big Girl", "popularity": "0.39", "external-ids":
-        [{"type": "isrc", "id": "USEP41130011"}], "length": 303.026, "href": "spotify:track:14Vve3anG210IlhI1fxa2J",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "9"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
-        "name": "Fate", "availability": {"territories": "AD AR AT AU BE BG BO BR CA
-        CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI
-        LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW
-        US UY"}}, "name": "From", "popularity": "0.39", "external-ids": [{"type":
-        "isrc", "id": "USNNZ0800007"}], "length": 279.16, "href": "spotify:track:3kl9RU3aQj41YJ4xUVfXwr",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "7"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
-        "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
-        AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
-        HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
-        SE SG SI SK SV TR TW US UY"}}, "name": "Can''t Remember", "popularity": "0.39",
-        "external-ids": [{"type": "isrc", "id": "USEP41318014"}], "length": 233.548,
-        "href": "spotify:track:5WYeob0nfBAEM8tkt8BnGo", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "14"}, {"album": {"released": "2008",
+        SV TR TW US UY"}}, "name": "Over Here, Over There", "popularity": "0.39",
+        "external-ids": [{"type": "isrc", "id": "USEP41130012"}], "length": 241.053,
+        "href": "spotify:track:01UJ9slw5hD77CQkEiLKJw", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "10"}, {"album": {"released": "2008",
         "href": "spotify:album:7deW5FlwTnjalzBDAftgwf", "name": "Fate", "availability":
         {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
         EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "The Ark",
-        "popularity": "0.39", "external-ids": [{"type": "isrc", "id": "USNNZ0800006"}],
-        "length": 217.52, "href": "spotify:track:7aNX1HyP4VgmMBPKypONN3", "artists":
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Army of Ancients",
+        "popularity": "0.38", "external-ids": [{"type": "isrc", "id": "USNNZ0800004"}],
+        "length": 245.266, "href": "spotify:track:22FJBNTKk3T6f9P7h0k5Vw", "artists":
         [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "6"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
-        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Warrior Man", "popularity": "0.39", "external-ids":
-        [{"type": "isrc", "id": "USEP41130002"}], "length": 297.56, "href": "spotify:track:0GbhSAJNY1we65y33h9QsA",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "11"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
-        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Over Here, Over There", "popularity": "0.38",
-        "external-ids": [{"type": "isrc", "id": "USEP41130012"}], "length": 241.053,
-        "href": "spotify:track:01UJ9slw5hD77CQkEiLKJw", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "10"}, {"album": {"released": "2013",
+        "4"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
+        "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
+        AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
+        HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
+        SE SG SI SK SV TR TW US UY"}}, "name": "Humble Passenger", "popularity": "0.38",
+        "external-ids": [{"type": "isrc", "id": "USEP41318015"}], "length": 396.144,
+        "href": "spotify:track:1ibFeSf5SRbnIoaBiKQzUO", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "15"}, {"album": {"released": "2013",
         "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw", "name": "B-Room [Deluxe Edition]",
         "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY
         CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT
         MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name":
-        "Humble Passenger", "popularity": "0.38", "external-ids": [{"type": "isrc",
-        "id": "USEP41318015"}], "length": 396.144, "href": "spotify:track:1ibFeSf5SRbnIoaBiKQzUO",
+        "Mt. Slippery", "popularity": "0.38", "external-ids": [{"type": "isrc", "id":
+        "USEP41318013"}], "length": 108.39, "href": "spotify:track:6DcsIbUxv6VcHC3MtyE1ht",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "15"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
-        "name": "Fate", "availability": {"territories": "AD AR AT AU BE BG BO BR CA
-        CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI
-        LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW
-        US UY"}}, "name": "Army of Ancients", "popularity": "0.38", "external-ids":
-        [{"type": "isrc", "id": "USNNZ0800004"}], "length": 245.266, "href": "spotify:track:22FJBNTKk3T6f9P7h0k5Vw",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "4"}, {"album": {"released": "2013", "href": "spotify:album:794dZC4ekzR1Ovwt4byZrw",
-        "name": "B-Room [Deluxe Edition]", "availability": {"territories": "AD AR
-        AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
-        HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
-        SE SG SI SK SV TR TW US UY"}}, "name": "Mt. Slippery", "popularity": "0.38",
-        "external-ids": [{"type": "isrc", "id": "USEP41318013"}], "length": 108.39,
-        "href": "spotify:track:6DcsIbUxv6VcHC3MtyE1ht", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "13"}, {"album": {"released": "2010",
-        "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL", "name": "Shame Shame (Deluxe
-        Edition)", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH
-        CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
-        LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US
-        UY"}}, "name": "Stranger", "popularity": "0.38", "external-ids": [{"type":
-        "isrc", "id": "USEP40937001"}], "length": 223.88, "href": "spotify:track:0DJ3al8qJJKztq6IpEulmA",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "1"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
+        Dog"}], "track-number": "13"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
+        "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
+        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
+        RO SE SG SI SK SV TR TW US UY"}}, "name": "Stranger", "popularity": "0.38",
+        "external-ids": [{"type": "isrc", "id": "USEP40937001"}], "length": 223.88,
+        "href": "spotify:track:0DJ3al8qJJKztq6IpEulmA", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "1"}, {"album": {"released": "2012",
+        "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U", "name": "Be The Void", "availability":
+        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
+        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Turning The
+        Century", "popularity": "0.38", "external-ids": [{"type": "isrc", "id": "USEP41130013"}],
+        "length": 230.186, "href": "spotify:track:2aC7cEEoeBhJIe4wjoAKiZ", "artists":
+        [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
+        "12"}, {"album": {"released": "2008", "href": "spotify:album:7deW5FlwTnjalzBDAftgwf",
         "name": "Fate", "availability": {"territories": "AD AR AT AU BE BG BO BR CA
         CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI
         LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW
         US UY"}}, "name": "My Friend", "popularity": "0.37", "external-ids": [{"type":
         "isrc", "id": "USNNZ0800011"}], "length": 336.24, "href": "spotify:track:1rzj1kkl0iQf8hNbNTMivc",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "11"}, {"album": {"released": "2012", "href": "spotify:album:3PfGVmxCIWVVp2ZOcKHx7U",
-        "name": "Be The Void", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Turning The Century", "popularity": "0.37", "external-ids":
-        [{"type": "isrc", "id": "USEP41130013"}], "length": 230.186, "href": "spotify:track:2aC7cEEoeBhJIe4wjoAKiZ",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "12"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
+        Dog"}], "track-number": "11"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
         "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
         AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
         HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
@@ -359,7 +468,22 @@ http_interactions:
         "0.37", "external-ids": [{"type": "isrc", "id": "USEP41130004"}], "length":
         201.08, "href": "spotify:track:0DMQvgujxHlWsrce6fcKXr", "artists": [{"href":
         "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "2"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
+        "2"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
+        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
+        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
+        RO SE SG SI SK SV TR TW US UY"}}, "name": "Lonesome", "popularity": "0.37",
+        "external-ids": [{"type": "isrc", "id": "USEP41130003"}], "length": 198.44,
+        "href": "spotify:track:3IoiQLuC2xKcXWiKs3GfD0", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "1"}, {"album": {"released": "2006",
+        "href": "spotify:album:1YoVfZdtvTzwfgOhesNQEP", "name": "Takers and Leavers
+        EP", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO
+        CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV
+        MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}},
+        "name": "Die, Die, Die", "popularity": "0.37", "external-ids": [{"type": "isrc",
+        "id": "USA370669743"}], "length": 181.36, "href": "spotify:track:5WxwgrmPoMtuIbQHJpuAeS",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "4"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
         "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
         AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
         HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
@@ -367,22 +491,7 @@ http_interactions:
         "0.37", "external-ids": [{"type": "isrc", "id": "USEP40937007"}], "length":
         223.16, "href": "spotify:track:32UVxSOdV1EI3HF9kVUZBM", "artists": [{"href":
         "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "7"}, {"album": {"released": "2006", "href": "spotify:album:1YoVfZdtvTzwfgOhesNQEP",
-        "name": "Takers and Leavers EP", "availability": {"territories": "AD AR AT
-        AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN
-        HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE
-        SG SI SK SV TR TW US UY"}}, "name": "Die, Die, Die", "popularity": "0.37",
-        "external-ids": [{"type": "isrc", "id": "USA370669743"}], "length": 181.36,
-        "href": "spotify:track:5WxwgrmPoMtuIbQHJpuAeS", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "4"}, {"album": {"released": "2012",
-        "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX", "name": "Be The Void [Deluxe
-        Edition]", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH
-        CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
-        LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US
-        UY"}}, "name": "Lonesome", "popularity": "0.37", "external-ids": [{"type":
-        "isrc", "id": "USEP41130003"}], "length": 198.44, "href": "spotify:track:3IoiQLuC2xKcXWiKs3GfD0",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "1"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
+        "7"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
         "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
         AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
         HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
@@ -427,21 +536,21 @@ http_interactions:
         RO SE SG SI SK SV TR TW US UY"}}, "name": "Shame, Shame", "popularity": "0.35",
         "external-ids": [{"type": "isrc", "id": "USEP40937011"}], "length": 316.36,
         "href": "spotify:track:5WwL4nYJzu72bEbDQKADCd", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "11"}, {"album": {"released": "2006",
-        "href": "spotify:album:1YoVfZdtvTzwfgOhesNQEP", "name": "Takers and Leavers
-        EP", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO
-        CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV
-        MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}},
-        "name": "Ain''t It Strange", "popularity": "0.35", "external-ids": [{"type":
-        "isrc", "id": "USA370669740"}], "length": 268.706, "href": "spotify:track:6W3s3N7Gr7ic9gUZa7kPEp",
+        "name": "Dr. Dog"}], "track-number": "11"}, {"album": {"released": "2005",
+        "href": "spotify:album:1LaDxZrh8Q7XmNQkWzlxJK", "name": "Easy Beat", "availability":
+        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
+        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "The World
+        May Never Know", "popularity": "0.35", "external-ids": [{"type": "isrc", "id":
+        "TCABH1203179"}], "length": 182.066, "href": "spotify:track:3jPMFS8DflvvRk3jhGnQoN",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "1"}, {"album": {"released": "2005", "href": "spotify:album:1LaDxZrh8Q7XmNQkWzlxJK",
-        "name": "Easy Beat", "availability": {"territories": "AD AR AT AU BE BG BO
-        BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS
-        IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV
-        TR TW US UY"}}, "name": "The World May Never Know", "popularity": "0.35",
-        "external-ids": [{"type": "isrc", "id": "TCABH1203179"}], "length": 182.066,
-        "href": "spotify:track:3jPMFS8DflvvRk3jhGnQoN", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        Dog"}], "track-number": "1"}, {"album": {"released": "2006", "href": "spotify:album:1YoVfZdtvTzwfgOhesNQEP",
+        "name": "Takers and Leavers EP", "availability": {"territories": "AD AR AT
+        AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN
+        HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE
+        SG SI SK SV TR TW US UY"}}, "name": "Ain''t It Strange", "popularity": "0.35",
+        "external-ids": [{"type": "isrc", "id": "USA370669740"}], "length": 268.706,
+        "href": "spotify:track:6W3s3N7Gr7ic9gUZa7kPEp", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
         "name": "Dr. Dog"}], "track-number": "1"}, {"album": {"released": "2008",
         "href": "spotify:album:7deW5FlwTnjalzBDAftgwf", "name": "Fate", "availability":
         {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
@@ -472,75 +581,72 @@ http_interactions:
         RO SE SG SI SK SV TR TW US UY"}}, "name": "Station", "popularity": "0.34",
         "external-ids": [{"type": "isrc", "id": "USEP40937003"}], "length": 191.413,
         "href": "spotify:track:4U7By8eOnW4iAdhZaNvubj", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "3"}, {"album": {"released": "2010",
-        "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL", "name": "Shame Shame (Deluxe
-        Edition)", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH
-        CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
-        LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US
-        UY"}}, "name": "It - bonus", "popularity": "0.34", "external-ids": [{"type":
-        "isrc", "id": "USEP40937012"}], "length": 232.0, "href": "spotify:track:0os1qPcWihnbeXZVLpC0oC",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "12"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
-        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
-        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
-        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "Get Away", "popularity": "0.34",
-        "external-ids": [{"type": "isrc", "id": "USEP41130007"}], "length": 240.733,
-        "href": "spotify:track:4NXHVgGzbmJt6ePFTOY5eI", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "5"}, {"album": {"released": "2010",
-        "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL", "name": "Shame Shame (Deluxe
-        Edition)", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH
-        CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
-        LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US
-        UY"}}, "name": "Someday", "popularity": "0.34", "external-ids": [{"type":
-        "isrc", "id": "USEP40937008"}], "length": 200.92, "href": "spotify:track:2zr3Tj7UiHGwjTeXN9KlGr",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "8"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
+        "name": "Dr. Dog"}], "track-number": "3"}, {"album": {"released": "2008",
+        "href": "spotify:album:5LdDti4oskKSVspwcpDK5d", "name": "Hip Hop: The Collection
+        2008", "availability": {"territories": "AD AR AT AU BE BG BO BR CH CL CO CR
+        CY CZ DE DK DO EC EE FI FR GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MY
+        NI NL NO NZ PA PE PH PT PY RO SE SG SI SK SV TR TW"}}, "name": "Still D.R.E.",
+        "external-ids": [{"type": "isrc", "id": "USIR19905031"}], "popularity": "0.44",
+        "explicit": true, "length": 267.933, "href": "spotify:track:00twZviPonMhKWN60B3l0F",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}],
+        "track-number": "1"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
         "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
         AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
         HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "Black-Red - bonus", "popularity":
-        "0.34", "external-ids": [{"type": "isrc", "id": "USEP41021002"}], "length":
-        247.226, "href": "spotify:track:7JfSeM9MmkOXdp5178XhkY", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "16"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
-        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
-        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
-        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "Vampire", "popularity": "0.33",
-        "external-ids": [{"type": "isrc", "id": "USEP41130009"}], "length": 266.666,
-        "href": "spotify:track:6z5xSuplIco3WsBdetfURF", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "7"}, {"album": {"released": "2013",
-        "href": "spotify:album:7c9jTDCpSjnjdJKHSKwi2j", "name": "B-Room [Album Commentary]",
-        "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY
-        CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT
-        MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name":
-        "The Truth - Commentary", "popularity": "0.33", "external-ids": [{"type":
-        "isrc", "id": "USEP41318031"}], "length": 53.346, "href": "spotify:track:73dSnG5SbdYwJm78lTl3OW",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "1"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
-        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "The Girl", "popularity": "0.33", "external-ids":
-        [{"type": "isrc", "id": "USA560616836"}], "length": 208.48, "href": "spotify:track:4h7vhaNtgMsGzsf1LDUTqT",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "4"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
-        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
-        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
-        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "Heavy Light", "popularity": "0.33",
-        "external-ids": [{"type": "isrc", "id": "USEP41130010"}], "length": 220.76,
-        "href": "spotify:track:3vh24IHKwQ0KP2Qow4DSYS", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "8"}, {"album": {"released": "2012",
+        RO SE SG SI SK SV TR TW US UY"}}, "name": "It - bonus", "popularity": "0.34",
+        "external-ids": [{"type": "isrc", "id": "USEP40937012"}], "length": 232.0,
+        "href": "spotify:track:0os1qPcWihnbeXZVLpC0oC", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "12"}, {"album": {"released": "2012",
         "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX", "name": "Be The Void [Deluxe
         Edition]", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH
         CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
         LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US
-        UY"}}, "name": "Control Yourself", "popularity": "0.33", "external-ids": [{"type":
-        "isrc", "id": "USEP41130015"}], "length": 215.719, "href": "spotify:track:06OUqJyllCZLlKHKF2xQFh",
+        UY"}}, "name": "Get Away", "popularity": "0.34", "external-ids": [{"type":
+        "isrc", "id": "USEP41130007"}], "length": 240.733, "href": "spotify:track:4NXHVgGzbmJt6ePFTOY5eI",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "14"}, {"album": {"released": "2012", "href": "spotify:album:0ZlR23MhEOUkrPHb5Rr98m",
+        Dog"}], "track-number": "5"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
+        "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
+        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
+        RO SE SG SI SK SV TR TW US UY"}}, "name": "Someday", "popularity": "0.34",
+        "external-ids": [{"type": "isrc", "id": "USEP40937008"}], "length": 200.92,
+        "href": "spotify:track:2zr3Tj7UiHGwjTeXN9KlGr", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "8"}, {"album": {"released": "2010",
+        "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL", "name": "Shame Shame (Deluxe
+        Edition)", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH
+        CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
+        LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US
+        UY"}}, "name": "Black-Red - bonus", "popularity": "0.34", "external-ids":
+        [{"type": "isrc", "id": "USEP41021002"}], "length": 247.226, "href": "spotify:track:7JfSeM9MmkOXdp5178XhkY",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "16"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
+        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
+        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
+        RO SE SG SI SK SV TR TW US UY"}}, "name": "Vampire", "popularity": "0.34",
+        "external-ids": [{"type": "isrc", "id": "USEP41130009"}], "length": 266.666,
+        "href": "spotify:track:6z5xSuplIco3WsBdetfURF", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "7"}, {"album": {"released": "2005",
+        "href": "spotify:album:0knL5fTAXqq9oq4Yeyibc8", "name": "The Best Of Snoop
+        Dogg", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO
+        CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV
+        MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}},
+        "name": "Just Dippin'' - Feat. Dr. Dre And Jewell", "external-ids": [{"type":
+        "isrc", "id": "USNL19900504"}], "popularity": "0.44", "explicit": true, "length":
+        243.013, "href": "spotify:track:2YlvHjDb4Tyxl4A1IcDhAe", "artists": [{"href":
+        "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}, {"href": "spotify:artist:05cqfWVtssCo3KVcqEAYG3",
+        "name": "Jewell"}], "track-number": "9"}, {"album": {"released": "2011", "href":
+        "spotify:album:347inOOK4kb02uEpi2LjF0", "name": "The R.E.D. Album", "availability":
+        {"territories": "AD AR AT AU BE BG BO BR CH CL CO CR CY CZ DE DK DO EC EE
+        ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MY NI NL NO NZ PA
+        PE PH PL PT PY RO SE SG SI SK SV TR TW UY"}}, "name": "Drug Test", "external-ids":
+        [{"type": "isrc", "id": "USUM71112096"}], "popularity": "0.43", "explicit":
+        true, "length": 166.12, "href": "spotify:track:4Omw6TAhZQvtZ4nBbmd2Kt", "artists":
+        [{"href": "spotify:artist:5QFYB1qQCTbg5LSTgtd7cy", "name": "Game"}, {"href":
+        "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr. Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG",
+        "name": "Snoop Dogg"}, {"href": "spotify:artist:7mh5yWKyUcN4xYhEJsWcxI", "name":
+        "Sly"}], "track-number": "3"}, {"album": {"released": "2012", "href": "spotify:album:0ZlR23MhEOUkrPHb5Rr98m",
         "name": "Spotify Sessions", "availability": {"territories": "AD AR AT AU BE
         BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU
         IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI
@@ -548,14 +654,67 @@ http_interactions:
         "0.33", "external-ids": [{"type": "isrc", "id": "USEP41220006"}], "length":
         224.163, "href": "spotify:track:0mERafQ13uGpKrc1Jmdjrl", "artists": [{"href":
         "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "4"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
+        "4"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
+        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
+        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
+        RO SE SG SI SK SV TR TW US UY"}}, "name": "Heavy Light", "popularity": "0.33",
+        "external-ids": [{"type": "isrc", "id": "USEP41130010"}], "length": 220.76,
+        "href": "spotify:track:3vh24IHKwQ0KP2Qow4DSYS", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
+        "name": "Dr. Dog"}], "track-number": "8"}, {"album": {"released": "2013",
+        "href": "spotify:album:7c9jTDCpSjnjdJKHSKwi2j", "name": "B-Room [Album Commentary]",
+        "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY
+        CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT
+        MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name":
+        "The Truth - Commentary", "popularity": "0.33", "external-ids": [{"type":
+        "isrc", "id": "USEP41318031"}], "length": 53.346, "href": "spotify:track:73dSnG5SbdYwJm78lTl3OW",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "1"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
+        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
+        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
+        RO SE SG SI SK SV TR TW US UY"}}, "name": "Control Yourself", "popularity":
+        "0.33", "external-ids": [{"type": "isrc", "id": "USEP41130015"}], "length":
+        215.719, "href": "spotify:track:06OUqJyllCZLlKHKF2xQFh", "artists": [{"href":
+        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
+        "14"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
+        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
+        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
+        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
+        SV TR TW US UY"}}, "name": "The Girl", "popularity": "0.33", "external-ids":
+        [{"type": "isrc", "id": "USA560616836"}], "length": 208.48, "href": "spotify:track:4h7vhaNtgMsGzsf1LDUTqT",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "4"}, {"album": {"released": "2006", "href": "spotify:album:7cYMG03xlGijTN8unU2XlD",
+        "name": "The Sound of Snoop Doggy Dogg", "availability": {"territories": "AD
+        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
+        RO SE SG SI SK SV TR TW UY"}}, "name": "Deep Cover", "popularity": "0.43",
+        "external-ids": [{"type": "isrc", "id": "DEE990401410"}], "length": 250.453,
+        "href": "spotify:track:5jjAUXUCyOP6Ra0whgpwf4", "artists": [{"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG",
+        "name": "Snoop Dogg"}, {"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name":
+        "Dr. Dre"}], "track-number": "6"}, {"album": {"released": "2010", "href":
+        "spotify:album:0okQjI9NDeUa9JftRC9FKW", "name": "Shame Shame", "availability":
+        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
+        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Shadow People",
+        "popularity": "0.33", "external-ids": [{"type": "isrc", "id": "USEP40937002"}],
+        "length": 253.093, "href": "spotify:track:1ybzdLJGrdx0t3JDaUCNxF", "artists":
+        [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
+        "2"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
         "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
         BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
         IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
         SV TR TW US UY"}}, "name": "Old News", "popularity": "0.33", "external-ids":
         [{"type": "isrc", "id": "USA560616833"}], "length": 110.573, "href": "spotify:track:48WPzUp4NRWLAXlSruIFBc",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "1"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
+        Dog"}], "track-number": "1"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
+        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
+        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
+        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
+        SV TR TW US UY"}}, "name": "Alaska", "popularity": "0.33", "external-ids":
+        [{"type": "isrc", "id": "USA560616837"}], "length": 239.32, "href": "spotify:track:0r42NlrQtvkO99cnleQzq9",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "5"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
         "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
         AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
         HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
@@ -563,21 +722,7 @@ http_interactions:
         "popularity": "0.33", "external-ids": [{"type": "isrc", "id": "USEP41021003"}],
         "length": 239.693, "href": "spotify:track:47pD7JTPeiUcebeRyiJS8j", "artists":
         [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "17"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
-        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Alaska", "popularity": "0.33", "external-ids":
-        [{"type": "isrc", "id": "USA560616837"}], "length": 239.32, "href": "spotify:track:0r42NlrQtvkO99cnleQzq9",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "5"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
-        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "The Way the Lazy Do", "popularity": "0.32", "external-ids":
-        [{"type": "isrc", "id": "USA560616839"}], "length": 217.106, "href": "spotify:track:51vbHn90eO9Zjt1Fcp9aSW",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "9"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
+        "17"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
         "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
         AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
         HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
@@ -588,26 +733,17 @@ http_interactions:
         "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz", "name": "We All Belong", "availability":
         {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
         EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Keep a Friend",
-        "popularity": "0.32", "external-ids": [{"type": "isrc", "id": "USA560616835"}],
-        "length": 212.146, "href": "spotify:track:5zfMGpEghKJpeYOIs3N65N", "artists":
+        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "The Way the
+        Lazy Do", "popularity": "0.32", "external-ids": [{"type": "isrc", "id": "USA560616839"}],
+        "length": 217.106, "href": "spotify:track:51vbHn90eO9Zjt1Fcp9aSW", "artists":
         [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "3"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
-        "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
-        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
-        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "What A Strange Day - bonus", "popularity":
-        "0.32", "external-ids": [{"type": "isrc", "id": "USEP40937013"}], "length":
-        179.386, "href": "spotify:track:1fAgubjD7A29ghbnV5TQ6e", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "13"}, {"album": {"released": "2010", "href": "spotify:album:0okQjI9NDeUa9JftRC9FKW",
-        "name": "Shame Shame", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Shadow People", "popularity": "0.32", "external-ids":
-        [{"type": "isrc", "id": "USEP40937002"}], "length": 253.093, "href": "spotify:track:1ybzdLJGrdx0t3JDaUCNxF",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "2"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
+        "9"}, {"album": {"released": "2008", "href": "spotify:album:4zAy084VKE74mjySXPMlaW",
+        "name": "2001", "availability": {"territories": "CA US"}}, "name": "Still
+        D.R.E. - Album Version (Edited)", "popularity": "0.43", "external-ids": [{"type":
+        "isrc", "id": "USIR19915095"}], "length": 270.56, "href": "spotify:track:5ddME3ojStqcg5IAMpqv5n",
+        "artists": [{"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr.
+        Dre"}, {"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop Dogg"}],
+        "track-number": "4"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
         "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
         AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
         HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
@@ -622,7 +758,22 @@ http_interactions:
         UY"}}, "name": "Over Here, Over There", "popularity": "0.32", "external-ids":
         [{"type": "isrc", "id": "USEP41130012"}], "length": 241.053, "href": "spotify:track:67JjyRd2i66OSR6wK0eV0R",
         "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "10"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
+        Dog"}], "track-number": "10"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
+        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
+        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
+        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
+        SV TR TW US UY"}}, "name": "Keep a Friend", "popularity": "0.32", "external-ids":
+        [{"type": "isrc", "id": "USA560616835"}], "length": 212.146, "href": "spotify:track:5zfMGpEghKJpeYOIs3N65N",
+        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
+        Dog"}], "track-number": "3"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
+        "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
+        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
+        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
+        RO SE SG SI SK SV TR TW US UY"}}, "name": "What A Strange Day - bonus", "popularity":
+        "0.32", "external-ids": [{"type": "isrc", "id": "USEP40937013"}], "length":
+        179.386, "href": "spotify:track:1fAgubjD7A29ghbnV5TQ6e", "artists": [{"href":
+        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
+        "13"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
         "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
         AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
         HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
@@ -637,158 +788,24 @@ http_interactions:
         RO SE SG SI SK SV TR TW US UY"}}, "name": "Warrior Man", "popularity": "0.32",
         "external-ids": [{"type": "isrc", "id": "USEP41130002"}], "length": 297.56,
         "href": "spotify:track:6eGjnBmnJe0dNEA1V8DI74", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "11"}, {"album": {"released": "2005",
-        "href": "spotify:album:1LaDxZrh8Q7XmNQkWzlxJK", "name": "Easy Beat", "availability":
-        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
-        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Oh No", "popularity":
-        "0.32", "external-ids": [{"type": "isrc", "id": "TCABH1203183"}], "length":
-        245.093, "href": "spotify:track:1DBcxVFjAREhcW0llacnNA", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "3"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
-        "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
-        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
-        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "Oh Man - bonus", "popularity":
-        "0.31", "external-ids": [{"type": "isrc", "id": "USEP40937014"}], "length":
-        222.44, "href": "spotify:track:5KCBdkCFMU7T9075jBdliv", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "14"}, {"album": {"released": "2013", "href": "spotify:album:7c9jTDCpSjnjdJKHSKwi2j",
-        "name": "B-Room [Album Commentary]", "availability": {"territories": "AD AR
-        AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
-        HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
-        SE SG SI SK SV TR TW US UY"}}, "name": "Broken Heart - Commentary", "popularity":
-        "0.31", "external-ids": [{"type": "isrc", "id": "USEP41318032"}], "length":
-        95.013, "href": "spotify:track:0d3L1YIuqIkkfGfuhqtljk", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "2"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
-        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
-        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
-        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "Turning The Century", "popularity":
-        "0.31", "external-ids": [{"type": "isrc", "id": "USEP41130013"}], "length":
-        230.186, "href": "spotify:track:2G3OS8krlNH8H33wr1PyVB", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "12"}, {"album": {"released": "2012", "href": "spotify:album:0ZlR23MhEOUkrPHb5Rr98m",
+        "name": "Dr. Dog"}], "track-number": "11"}, {"album": {"released": "2006",
+        "href": "spotify:album:7cYMG03xlGijTN8unU2XlD", "name": "The Sound of Snoop
+        Doggy Dogg", "availability": {"territories": "AD AR AT AU BE BG BO BR CA CH
+        CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT
+        LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW UY"}},
+        "name": "Nuthin'' But A G''Thang", "popularity": "0.42", "external-ids": [{"type":
+        "isrc", "id": "DEE990401412"}], "length": 236.16, "href": "spotify:track:0dgdXBWLJTPXr5ZgJ2N4SA",
+        "artists": [{"href": "spotify:artist:7hJcb9fa4alzcOq3EaNPoG", "name": "Snoop
+        Dogg"}, {"href": "spotify:artist:6DPYiyq5kWVQS4RGwxzPC7", "name": "Dr. Dre"}],
+        "track-number": "12"}, {"album": {"released": "2012", "href": "spotify:album:0ZlR23MhEOUkrPHb5Rr98m",
         "name": "Spotify Sessions", "availability": {"territories": "AD AR AT AU BE
         BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU
         IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI
         SK SV TR TW US UY"}}, "name": "How Long Must I Wait - Live From Spotify NYC",
-        "popularity": "0.31", "external-ids": [{"type": "isrc", "id": "USEP41220005"}],
+        "popularity": "0.32", "external-ids": [{"type": "isrc", "id": "USEP41220005"}],
         "length": 241.07, "href": "spotify:track:77HsEfzFRnGXYzirD73umq", "artists":
         [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "3"}, {"album": {"released": "2012", "href": "spotify:album:25ihggsJ46GyW1OvcUbUPX",
-        "name": "Be The Void [Deluxe Edition]", "availability": {"territories": "AD
-        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
-        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "What A Fool", "popularity": "0.31",
-        "external-ids": [{"type": "isrc", "id": "USEP41130016"}], "length": 160.96,
-        "href": "spotify:track:0xJwj4LXInbA8WLdfHAmUA", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "15"}, {"album": {"released": "2005",
-        "href": "spotify:album:1LaDxZrh8Q7XmNQkWzlxJK", "name": "Easy Beat", "availability":
-        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
-        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Say Something",
-        "popularity": "0.31", "external-ids": [{"type": "isrc", "id": "TCABH1203187"}],
-        "length": 337.546, "href": "spotify:track:6EZ4KRkjC9rII5om2aIqBL", "artists":
-        [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "7"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
-        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "We All Belong", "popularity": "0.31", "external-ids":
-        [{"type": "isrc", "id": "USA560616840"}], "length": 317.04, "href": "spotify:track:59tFyoYPD75crzJ8p1fyRg",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "11"}, {"album": {"released": "2005", "href": "spotify:album:1LaDxZrh8Q7XmNQkWzlxJK",
-        "name": "Easy Beat", "availability": {"territories": "AD AR AT AU BE BG BO
-        BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS
-        IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV
-        TR TW US UY"}}, "name": "The Pretender", "popularity": "0.31", "external-ids":
-        [{"type": "isrc", "id": "TCABH1203180"}], "length": 330.653, "href": "spotify:track:4BwYIWvmrlMMao8yoPXs1Z",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "2"}, {"album": {"released": "2007", "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz",
-        "name": "We All Belong", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Weekend", "popularity": "0.31", "external-ids":
-        [{"type": "isrc", "id": "USA560616838"}], "length": 163.826, "href": "spotify:track:4fo5lXnnxYgpRhHAla0yze",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "6"}, {"album": {"released": "2005", "href": "spotify:album:1LaDxZrh8Q7XmNQkWzlxJK",
-        "name": "Easy Beat", "availability": {"territories": "AD AR AT AU BE BG BO
-        BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE IS
-        IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK SV
-        TR TW US UY"}}, "name": "Easy Beat", "popularity": "0.31", "external-ids":
-        [{"type": "isrc", "id": "TCABH1203184"}], "length": 295.2, "href": "spotify:track:1E1t3zVESVw3Mk4LK7D3Q7",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "4"}, {"album": {"released": "2010", "href": "spotify:album:0okQjI9NDeUa9JftRC9FKW",
-        "name": "Shame Shame", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Jackie Wants a Black Eye", "popularity": "0.31",
-        "external-ids": [{"type": "isrc", "id": "USEP40937010"}], "length": 184.826,
-        "href": "spotify:track:7xYvAphLlZnc4Szjr4ZXFR", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "10"}, {"album": {"released": "2007",
-        "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz", "name": "We All Belong", "availability":
-        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
-        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Worst Trip",
-        "popularity": "0.3", "external-ids": [{"type": "isrc", "id": "USA370691902"}],
-        "length": 180.12, "href": "spotify:track:4FKsxMrL9djHaSl3nCsuXT", "artists":
-        [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "8"}, {"album": {"released": "2010", "href": "spotify:album:5gGFADEHnGcGKYMUNBNPJL",
-        "name": "Shame Shame (Deluxe Edition)", "availability": {"territories": "AD
-        AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT
-        HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY
-        RO SE SG SI SK SV TR TW US UY"}}, "name": "The Sound - bonus", "popularity":
-        "0.3", "external-ids": [{"type": "isrc", "id": "USEP41021004"}], "length":
-        247.186, "href": "spotify:track:23vuCPRPU9mXRMhn1cUckI", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "18"}, {"album": {"released": "2006", "href": "spotify:album:1YoVfZdtvTzwfgOhesNQEP",
-        "name": "Takers and Leavers EP", "availability": {"territories": "AD AR AT
-        AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN
-        HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE
-        SG SI SK SV TR TW US UY"}}, "name": "I''ve Just Got to Tell You", "popularity":
-        "0.3", "external-ids": [{"type": "isrc", "id": "USA370669742"}], "length":
-        170.626, "href": "spotify:track:0psEVs0ydcAVNJV9CGmNBl", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "3"}, {"album": {"released": "2006", "href": "spotify:album:1YoVfZdtvTzwfgOhesNQEP",
-        "name": "Takers and Leavers EP", "availability": {"territories": "AD AR AT
-        AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN
-        HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE
-        SG SI SK SV TR TW US UY"}}, "name": "California", "popularity": "0.3", "external-ids":
-        [{"type": "isrc", "id": "USA370669744"}], "length": 188.613, "href": "spotify:track:6QnERd85g8QFVK4gAjJxeN",
-        "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr.
-        Dog"}], "track-number": "5"}, {"album": {"released": "2006", "href": "spotify:album:1YoVfZdtvTzwfgOhesNQEP",
-        "name": "Takers and Leavers EP", "availability": {"territories": "AD AR AT
-        AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN
-        HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE
-        SG SI SK SV TR TW US UY"}}, "name": "Livin'' a Dream", "popularity": "0.3",
-        "external-ids": [{"type": "isrc", "id": "USA370669745"}], "length": 347.6,
-        "href": "spotify:track:3E2IwDJNfW4oZtVtbJgpcX", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "6"}, {"album": {"released": "2007",
-        "href": "spotify:album:7mVN57yF5tRIU7sZp9CeQz", "name": "We All Belong", "availability":
-        {"territories": "AD AR AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC
-        EE ES FI FR GB GR GT HK HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO
-        NZ PA PE PH PL PT PY RO SE SG SI SK SV TR TW US UY"}}, "name": "Ain''t It
-        Strange", "popularity": "0.3", "external-ids": [{"type": "isrc", "id": "USA370669740"}],
-        "length": 268.36, "href": "spotify:track:4StWisNTqDwLHpbCMtDARa", "artists":
-        [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "7"}, {"album": {"released": "2013", "href": "spotify:album:7c9jTDCpSjnjdJKHSKwi2j",
-        "name": "B-Room [Album Commentary]", "availability": {"territories": "AD AR
-        AT AU BE BG BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK
-        HN HR HU IE IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO
-        SE SG SI SK SV TR TW US UY"}}, "name": "Minding The Usher - Commentary", "popularity":
-        "0.3", "external-ids": [{"type": "isrc", "id": "USEP41318033"}], "length":
-        161.333, "href": "spotify:track:0vmoqCFs9XMCKV8UCN44dU", "artists": [{"href":
-        "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7", "name": "Dr. Dog"}], "track-number":
-        "3"}, {"album": {"released": "2010", "href": "spotify:album:0okQjI9NDeUa9JftRC9FKW",
-        "name": "Shame Shame", "availability": {"territories": "AD AR AT AU BE BG
-        BO BR CA CH CL CO CR CY CZ DE DK DO EC EE ES FI FR GB GR GT HK HN HR HU IE
-        IS IT LI LT LU LV MC MT MX MY NI NL NO NZ PA PE PH PL PT PY RO SE SG SI SK
-        SV TR TW US UY"}}, "name": "Where''d All the Time Go?", "popularity": "0.29",
-        "external-ids": [{"type": "isrc", "id": "USEP40937005"}], "length": 234.8,
-        "href": "spotify:track:79aa7Svr7ARk0xxeB4ODsJ", "artists": [{"href": "spotify:artist:4mLJ3XfOM5FPjSAWdQ2Jk7",
-        "name": "Dr. Dog"}], "track-number": "5"}]}'
+        "3"}]}'
     http_version: 
-  recorded_at: Thu, 10 Jul 2014 02:25:03 GMT
+  recorded_at: Fri, 18 Jul 2014 22:58:02 GMT
 recorded_with: VCR 2.9.0

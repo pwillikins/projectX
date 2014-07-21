@@ -9,7 +9,7 @@
         <th>Total Votes</th>
         <% @show_votes.each do |array, count| %>
           <tr>
-            <td><%= array.last %></td>
+            <td><%= array.last.capitalize %></td>
             <td><%= count %></td>
           </tr>
         <% end %>

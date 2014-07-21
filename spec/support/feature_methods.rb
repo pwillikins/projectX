@@ -10,7 +10,7 @@ module FeatureMethods
     attributes = default_attributes.merge(updated_attributes)
 
     visit '/'
-    click_on 'Register'
+    click_link 'Register'
     fill_in 'user[email]', with: attributes[:email]
     fill_in 'user[password]', with: attributes[:password]
     fill_in 'user[password_confirmation]', with: attributes[:password_confirmation]
@@ -26,7 +26,6 @@ module FeatureMethods
     attributes = default_attributes.merge(updated_attributes)
 
     visit '/'
-    click_on 'Login'
     fill_in 'email', with: attributes[:email]
     fill_in 'password', with: attributes[:password]
     click_button 'Login'

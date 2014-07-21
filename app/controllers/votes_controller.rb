@@ -3,28 +3,37 @@ class VotesController < ApplicationController
   before_filter :authenticate
 
   def new
-    @gig_id = params[:gig_id]
-    @vote = Vote.new
-    @display_name = params[:artist]
-    @gig_display_name = params[:gig_display_name]
-    @song_list = SongFinder.new.find_songs_for_artist(@display_name)
+    if Vote.where(user_id: current_user.id, gig_id: params[:gig_id]).present?
+      redirect_to index_path
+      flash[:notice] = "You have already voted for this concert"
+    else
+      @vote = Vote.new
+      @gig_id = params[:gig_id]
+      @display_name = params[:artist]
+      @gig_display_name = params[:gig_display_name]
+      @song_list = SongFinder.new.find_songs_for_artist(@display_name)
+    end
   end
 
   def create
-    songs = params[:songs].keys
-    artist_name = params[:artist]
+    if params[:songs].nil?
+      redirect_to :back
+      flash[:notice] = "You forgot to select a song"
+    else
+      songs = params[:songs].keys
+      artist_name = params[:artist]
 
-    songs.each do |song|
-      vote = Vote.new(user_id: current_user.id,
-                      song_name: song,
-                      artist_name: artist_name,
-                      gig_id: params[:gig_id])
-      vote.save
+      songs.each do |song|
+        vote = Vote.new(user_id: current_user.id,
+                        song_name: song,
+                        artist_name: artist_name,
+                        gig_id: params[:gig_id])
+        vote.save
+      end
       flash[:notice] = "Your votes have been submitted!"
       redirect_to votes_for_gig_path(gig_id: params[:gig_id])
     end
   end
-
 
   def votes_for_gig
     @name = []
@@ -37,10 +46,6 @@ class VotesController < ApplicationController
 
   def votes_for_user
     user_id = current_user.id
-    @user_votes = Vote.where(user_id: user_id).group(:artist_name, :song_name).count
-  end
-
-  def show
-
+    @user_votes = Vote.where(user_id: user_id).group(:artist_name, :song_name).count.sort_by { |k, _| k }
   end
 end

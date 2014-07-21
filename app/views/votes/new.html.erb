@@ -9,11 +9,13 @@
             <th></th>
             <th>Vote for the 5 songs you want to hear!</th>
           </tr>
-          <%= form_for(@vote) do |x| %>
+          <%= form_for @vote do |x| %>
             <% @song_list.each do |song| %>
               <tr>
-                <td><input type="checkbox" id="songs" name="songs[<%= song %>]" value="<%= song %>"></td>
-                <td><%= x.label song %></td>
+                <td>
+                  <input type="checkbox" id="songs" name="songs[<%= song %>]" value="<%= song %>">
+                </td>
+                <td><%= x.label song.capitalize %></td>
               </tr>
               <input type="hidden" name="artist" value="<%= @display_name %>"/>
               <input type="hidden" name="gig_id" value="<%= @gig_id %>"/>

@@ -3,7 +3,6 @@ require 'spec_helper'
 feature "User visits homepage" do
   scenario "user can register a new account and logout" do
     register_user
-
     expect(page).to have_button 'Search for Concerts'
     expect(page).to have_content 'example@email.com'
     expect(page).to have_link 'Logout'

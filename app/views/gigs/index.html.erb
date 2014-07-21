@@ -8,7 +8,9 @@
 
     <hr style="margin-bottom: -10px;">
 
-    <h2 align="center">Upcoming Shows</h2>
+    <div id="title">
+      <h2>Upcoming Shows</h2>
+    </div>
 
     <table align="center" class="table table-bordered">
       <tr>
@@ -27,7 +29,7 @@
                                          artist: @display_name),
                           method: :post,
                           :style => "color:red" %></td>
-          <td><%= link_to "See All Votes For This Concert",
+          <td><%= link_to "All Votes",
                           votes_for_gig_path(gig_id: gig.id),
                           :style => "color:blue" %></td>
         </tr>

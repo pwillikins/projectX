@@ -16,7 +16,7 @@ feature "User can Vote" do
       click_button 'submit'
 
       expect(page).to have_content "Your votes have been submitted!"
-      expect(page).to have_content "Dance All Night (feat. Matisyahu)"
+      expect(page).to have_content "Dance all night (feat. matisyahu) 1"
     end
   end
 end

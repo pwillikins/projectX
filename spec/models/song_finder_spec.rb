@@ -1,11 +1,9 @@
-# require 'spec_helper'
-#
-# describe SongFinder do
-#   it "returns a list of votes" do
-#     finder = SongFinder.new
-#
-#     expected = "Lonesome"
-#
-#     expect(finder.find_songs("dr dog")).to include expected
-#   end
-# end
+require 'spec_helper'
+
+describe SongFinder do
+  it "returns a list of votes" do
+    finder = SongFinder.new
+
+    expect(finder.find_songs_for_artist("dr dog")).to include "lonesome"
+  end
+end

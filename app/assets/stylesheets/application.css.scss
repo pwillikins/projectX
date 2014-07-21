@@ -49,8 +49,8 @@ ul {
 }
 
 img {
-  width: 90%;
-  height: auto;
+  width: 60%;
+  max-height: 80%;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -168,4 +168,8 @@ a {
 
 input[type=checkbox] {
   zoom: 1.5;
+}
+
+#title {
+  text-align: center
 }

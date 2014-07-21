@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  root "welcome#index"
+  root "sessions#new"
+
+  get "/index", to: "welcome#index"
 
   resources :users, :only => [:new, :create]
 
