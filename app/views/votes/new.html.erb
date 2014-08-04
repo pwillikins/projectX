@@ -2,12 +2,11 @@
   <div class="jumbotron">
     <div class="row">
       <ul style="color:#F7F7F7">
-        <li><h1 style="text-align: center"><%= @gig_display_name %></h1></li>
-        <hr>
-        <table align="center" class="table table-bordered">
+        <li><h2 style="text-align: center"><%= @gig_display_name %></h2></li>
+        <table align="center" class="table table-striped">
           <tr>
             <th></th>
-            <th>Vote for the 5 songs you want to hear!</th>
+            <th><h3>Vote for the 5 songs you want to hear!</h3></th>
           </tr>
           <%= form_for @vote do |x| %>
             <% @song_list.each do |song| %>

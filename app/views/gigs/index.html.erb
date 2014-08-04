@@ -12,12 +12,12 @@
       <h2>Upcoming Shows</h2>
     </div>
 
-    <table align="center" class="table table-bordered">
-      <tr>
+    <table align="center" class="table table-striped">
+      <tr style="font-size: 20px">
         <th>Venue</th>
         <th>Location</th>
-        <th>Cast Your Vote</th>
-        <th>Total Votes</th>
+        <th>Vote!</th>
+        <th>Total</th>
       </tr>
       <% @gigs.results.each do |gig| %>
         <tr>
@@ -29,9 +29,7 @@
                                          artist: @display_name),
                           method: :post,
                           :style => "color:red" %></td>
-          <td><%= link_to "All Votes",
-                          votes_for_gig_path(gig_id: gig.id),
-                          :style => "color:blue" %></td>
+          <td><%= link_to "See Votes", votes_for_gig_path(gig_id: gig.id), :style => "color:blue" %></td>
         </tr>
       <% end %>
     </table>

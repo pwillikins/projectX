@@ -4723,7 +4723,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
 }
 
 .container .jumbotron {
-    background-color: #BBBBBB;
+    background-color: white;
     border-radius: 6px;
 }
 

@@ -8,10 +8,9 @@ feature "User can Vote" do
 
       fill_in 'band_name', with: 'Dirty Heads'
       click_button 'Search For Gigs'
-      expect(page).to have_content 'Dirty Heads Upcoming Shows Venue Location Cast Your Vote Total Votes'
       click_link 'Vote Now!', match: :first
 
-      expect(page).to have_content 'Dirty Heads at Fingerprints Records (July 10, 2014)'
+      expect(page).to have_content "Dirty Heads at Fingerprints Records (July 10, 2014)"
       check 'songs', match: :first
       click_button 'submit'
 
