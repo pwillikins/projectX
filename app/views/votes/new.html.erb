@@ -6,7 +6,7 @@
         <table align="center" class="table table-striped">
           <tr>
             <th></th>
-            <th><h3>Vote for the 5 songs you want to hear!</h3></th>
+            <th><h4>Vote for the 5 songs you want to hear!</h4></th>
           </tr>
           <%= form_for @vote do |x| %>
             <% @song_list.each do |song| %>
@@ -17,6 +17,7 @@
                 <td><%= x.label song.capitalize %></td>
               </tr>
               <input type="hidden" name="artist" value="<%= @display_name %>"/>
+              <input type="hidden" name="gig_display_name" value="<%= @gig_display_name %>"/>
               <input type="hidden" name="gig_id" value="<%= @gig_id %>"/>
             <% end %>
             <tr>

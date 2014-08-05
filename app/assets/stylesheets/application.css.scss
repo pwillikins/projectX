@@ -22,7 +22,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 body.homepage {
@@ -172,4 +172,9 @@ input[type=checkbox] {
 
 #title {
   text-align: center
+}
+
+#past_votes_link {
+  color: #000000;
+  float: right;
 }

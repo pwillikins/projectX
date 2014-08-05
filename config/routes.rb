@@ -29,4 +29,8 @@ Rails.application.routes.draw do
   get '/reset_password/:token', to: 'reset_passwords#edit', as: :edit_password
   patch '/reset_password/:token', to: 'reset_passwords#update', as: :update_password
 
+  get "/votes_for_past_shows", to: "gigs#votes_for_past_shows"
+
+  get "/songs_voted_for_by_gig", to: "gigs#songs_voted_for_by_gig"
+
 end

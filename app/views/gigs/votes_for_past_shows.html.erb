@@ -1,0 +1,10 @@
+<h1>All Shows</h1>
+<table align="center" class="table table-striped">
+  <% @gigs.each do |show, id| %>
+    <tr>
+      <td align="center"><h5><%= link_to show,
+        songs_voted_for_by_gig_path(gig_id: id), style: "color:black" %></h5>
+      </td>
+    </tr>
+  <% end %>
+</table>

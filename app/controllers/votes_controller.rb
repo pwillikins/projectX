@@ -27,7 +27,8 @@ class VotesController < ApplicationController
         vote = Vote.new(user_id: current_user.id,
                         song_name: song,
                         artist_name: artist_name,
-                        gig_id: params[:gig_id])
+                        gig_id: params[:gig_id],
+                        gig_display_name: params[:gig_display_name])
         vote.save
       end
       flash[:notice] = "Your votes have been submitted!"
@@ -48,4 +49,5 @@ class VotesController < ApplicationController
     user_id = current_user.id
     @user_votes = Vote.where(user_id: user_id).group(:artist_name, :song_name).count.sort_by { |k, _| k }
   end
+
 end

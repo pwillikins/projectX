@@ -11,6 +11,9 @@
     <div id="title">
       <h2>Upcoming Shows</h2>
     </div>
+    <div id="past_votes_link">
+      <%= link_to "Past Votes", votes_for_past_shows_path(artist: @display_name), :style => "color:black" %>
+    </div>
 
     <table align="center" class="table table-striped">
       <tr style="font-size: 20px">

@@ -1,0 +1,10 @@
+<table align="center" class="table table-striped">
+  <th><h4>Song Name</h4></th>
+  <th><h4>Total Votes</h4></th>
+  <% @songs.each do |song, count| %>
+    <tr>
+      <td><%= song.capitalize %></td>
+      <td><%= count %></td>
+    </tr>
+  <% end %>
+</table>

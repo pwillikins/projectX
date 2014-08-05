@@ -19,4 +19,14 @@ class GigsController < ApplicationController
       end
     end
   end
+
+  def votes_for_past_shows
+    artist = params[:artist]
+    @gigs = Vote.new.find_gigs(artist)
+  end
+
+  def songs_voted_for_by_gig
+    gig_id = params[:gig_id]
+    @songs = Vote.new.find_songs(gig_id)
+  end
 end
