@@ -61,7 +61,7 @@ tr:hover {
 }
 
 #search_button {
-  width: 12%;
+  width: 35%;
   display: inline-block;
   margin-bottom: 0;
   margin-top: 1%;
@@ -154,12 +154,11 @@ a {
   td {
     padding: 1px;
   }
-
 }
 
-#form_display {
+.form_display {
   text-align: center;
-  margin-top: 16%;
+  margin-top: 45%;
 }
 
 #my_votes_link {
@@ -178,3 +177,8 @@ input[type=checkbox] {
   color: #000000;
   float: right;
 }
+
+#twitter_widget {
+  margin-top: 5%
+}
+
