@@ -1,10 +1,10 @@
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title" style="padding-left: 15px">Voted List - <%= @name[1] %></h3>
-  </div>
-  <div class="panel-body">
-    <div class="table-responsive">
-      <table class="table" align="center">
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title"><h1>Votes - <%= @name[1] %></h1></h3>
+    </div>
+    <div class="panel-body">
+      <table class="table table-striped" align="center">
         <th>Song Name</th>
         <th>Total Votes</th>
         <% @show_votes.each do |array, count| %>

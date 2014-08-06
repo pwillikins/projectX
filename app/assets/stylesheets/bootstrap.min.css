@@ -2174,7 +2174,8 @@ textarea.input-lg, select[multiple].input-lg {
 .btn-default {
     color: #333;
     background-color: #fff;
-    border-color: #ccc
+    border-color: #ccc;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
@@ -4728,7 +4729,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
 }
 
 .jumbotron .container {
-    max-width: 100%
+    max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -4739,7 +4740,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
 
     .container .jumbotron {
         padding-left: 25px;
-        padding-right: 60px
+        padding-right: 60px;
     }
 
     .jumbotron h1, .jumbotron .h1 {
@@ -5173,11 +5174,11 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
     padding: 10px 15px;
     border-bottom: 1px solid transparent;
     border-top-right-radius: 3px;
-    border-top-left-radius: 3px
+    border-top-left-radius: 3px;
 }
 
 .panel-heading > .dropdown .dropdown-toggle {
-    color: inherit
+    color: inherit;
 }
 
 .panel-title {
@@ -5318,12 +5319,17 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 
 .panel-default {
-    border-color: #ddd
+    margin-top: 1em;
+    margin-bottom: 3.5em;
+    border-color: #ddd;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .panel-default > .panel-heading {
     color: #333;
-    background-color: #f5f5f5;
+    background-color: #777580;
+    color: #ffffff;
     border-color: #ddd
 }
 

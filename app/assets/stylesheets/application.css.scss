@@ -13,7 +13,7 @@
 }
 
 #footer {
-  background-color: #000000;
+  background-color: #1B1829;
   bottom: 0;
   height: 35px;
   position: fixed;
@@ -49,11 +49,13 @@ ul {
 }
 
 img {
-  width: 60%;
-  max-height: 80%;
+  width: 20em;
+  max-height: 30em;
   display: block;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 tr:hover {
@@ -64,7 +66,7 @@ tr:hover {
   width: 35%;
   display: inline-block;
   margin-bottom: 0;
-  margin-top: 1%;
+  margin-top: 1em;
   margin-right: 6.6%;
   font-weight: 400;
   text-align: center;
@@ -173,12 +175,17 @@ input[type=checkbox] {
   text-align: center
 }
 
-#past_votes_link {
-  color: #000000;
-  float: right;
-}
-
 #twitter_widget {
   margin-top: 5%
+}
+
+.no-left-padding {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 2em;
+  width: 10em
+}
+
+header {
+  background-color: #1B1829
 }
 

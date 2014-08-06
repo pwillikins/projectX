@@ -22,7 +22,7 @@
       <li id="user_name"><%= current_user.email %></li>
       <li><%= link_to "Home", index_path %> |</li>
     <% else %>
-
+      <!--<span class="glyphicon glyphicon-filter"></span>-->
       <li id="login"><%= link_to "Login", new_session_path %></li>
       <li id="register"><%= link_to "Register", new_user_path %> |</li>
     <% end %>

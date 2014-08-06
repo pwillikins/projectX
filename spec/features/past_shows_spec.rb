@@ -10,7 +10,7 @@ feature "Past Shows" do
     Vote.create!(artist_name: "311", song_name: "Creatures", gig_id: 1234567, gig_display_name: "311 at The Fillmore Auditorium (August 5, 2014)")
     fill_in "band_name", with: "311"
     click_button "Search for Concerts"
-    click_on "Past Votes"
+    click_on "Past Shows"
     expect(page).to have_content("311 at The Fillmore Auditorium (August 5, 2014)")
 
     click_on "311 at The Fillmore Auditorium (August 5, 2014)"

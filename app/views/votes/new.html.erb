@@ -1,33 +1,36 @@
 <div class="container">
-  <div class="jumbotron">
-    <div class="row">
-      <ul style="color:#F7F7F7">
-        <li><h2 style="text-align: center"><%= @gig_display_name %></h2></li>
-        <table align="center" class="table table-striped">
-          <tr>
-            <th></th>
-            <th><h4>Vote for the 5 songs you want to hear!</h4></th>
-          </tr>
-          <%= form_for @vote do |x| %>
-            <% @song_list.each do |song| %>
-              <tr>
-                <td>
-                  <input type="checkbox" id="songs" name="songs[<%= song %>]" value="<%= song %>">
-                </td>
-                <td><%= x.label song.capitalize %></td>
-              </tr>
-              <input type="hidden" name="artist" value="<%= @display_name %>"/>
-              <input type="hidden" name="gig_display_name" value="<%= @gig_display_name %>"/>
-              <input type="hidden" name="gig_id" value="<%= @gig_id %>"/>
-            <% end %>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title"><h2 style="text-align: center"><%= @gig_display_name %></h2>
+      </h3>
+    </div>
+    <div class="panel-body">
+      <table align="center" class="table table-striped">
+        <tr>
+          <th></th>
+          <th><h3>Vote for the 5 songs you want to hear!</h3></th>
+        </tr>
+        <%= form_for @vote do |x| %>
+          <% @song_list.each do |song| %>
             <tr>
-              <td><%= x.submit :submit %></td>
-              <td></td>
+              <td>
+                <input type="checkbox" id="songs" name="songs[<%= song %>]" value="<%= song %>">
+              </td>
+              <td><%= x.label song.capitalize %></td>
             </tr>
+            <input type="hidden" name="artist" value="<%= @display_name %>"/>
+            <input type="hidden" name="gig_display_name" value="<%= @gig_display_name %>"/>
+            <input type="hidden" name="gig_id" value="<%= @gig_id %>"/>
           <% end %>
-        </table>
+          <tr>
+            <td><%= x.submit :submit, class: "btn btn-default" %></td>
+            <td></td>
+          </tr>
+        <% end %>
+      </table>
       </ul>
     </div>
   </div>
 </div>
+
 

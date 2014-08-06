@@ -1,40 +1,39 @@
 <div class="container">
-  <div class="jumbotron">
-    <div class="gigs_header">
-      <h1 style="text-align: center; color:#000000"><%= @display_name %></h1>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">
+        <div class="row">
+          <div class="col-md-6"> <%= image_tag @image_url %></div>
+          <div class="col-md-6" style="text-align: left; color:#ffffff"><h2>Upcoming Shows for <%= @display_name %></h2>
+            <br>
+            <%= link_to "Past Shows", votes_for_past_shows_path(artist: @display_name), :style => "color:black", class: "btn btn-default no-left-padding" %>
+          </div>
+        </div>
+      </h3>
     </div>
-
-    <%= image_tag @image_url %>
-
-    <hr style="margin-bottom: -10px;">
-
-    <div id="title">
-      <h2>Upcoming Shows</h2>
-    </div>
-    <div id="past_votes_link">
-      <%= link_to "Past Votes", votes_for_past_shows_path(artist: @display_name), :style => "color:black" %>
-    </div>
-
-    <table align="center" class="table table-striped">
-      <tr style="font-size: 20px">
-        <th>Venue</th>
-        <th>Location</th>
-        <th>Vote!</th>
-        <th>Total</th>
-      </tr>
-      <% @gigs.results.each do |gig| %>
-        <tr>
-          <td><%= gig.display_name %></td>
-          <td><%= gig.venue.display_name %>, <%= gig.venue.metro_area.state %>, <%= gig.venue.metro_area.country %></td>
-          <td><%= link_to "Vote Now!",
-                          votes_new_path(gig_display_name: gig.display_name,
-                                         gig_id: gig.id,
-                                         artist: @display_name),
-                          method: :post,
-                          :style => "color:red" %></td>
-          <td><%= link_to "See Votes", votes_for_gig_path(gig_id: gig.id), :style => "color:blue" %></td>
+    <div class="panel-body">
+      <table align="center" class="table table-striped">
+        <tr style="font-size: 20px">
+          <th>Venue</th>
+          <th>Location</th>
+          <th>Vote!</th>
+          <th>Total</th>
         </tr>
-      <% end %>
-    </table>
+        <% @gigs.results.each do |gig| %>
+          <tr>
+            <td><%= gig.display_name %></td>
+            <td><%= gig.venue.display_name %>, <%= gig.venue.metro_area.state %>
+              , <%= gig.venue.metro_area.country %></td>
+            <td><%= link_to "Vote Now!",
+                            votes_new_path(gig_display_name: gig.display_name,
+                                           gig_id: gig.id,
+                                           artist: @display_name),
+                            method: :post,
+                            :style => "color:red" %></td>
+            <td><%= link_to "See Votes", votes_for_gig_path(gig_id: gig.id), :style => "color:blue" %></td>
+          </tr>
+        <% end %>
+      </table>
+    </div>
   </div>
 </div>
