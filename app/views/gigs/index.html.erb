@@ -29,8 +29,8 @@
                                            gig_id: gig.id,
                                            artist: @display_name),
                             method: :post,
-                            :style => "color:red" %></td>
-            <td><%= link_to "See Votes", votes_for_gig_path(gig_id: gig.id), :style => "color:blue" %></td>
+                            class: "btn btn-default" %></td>
+            <td><%= link_to "See Votes", votes_for_gig_path(gig_id: gig.id), class: "btn btn-default" %></td>
           </tr>
         <% end %>
       </table>

@@ -14,7 +14,7 @@
 }
 
 #footer {
-  background-color: #1B1829;
+  background-color: #000000;
   font-family: Francois One, Charcoal, sans-serif;
   bottom: 0;
   height: 35px;
@@ -24,12 +24,16 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-image: asset-url("live_music.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 body.homepage {
   height: 100%;
-  background-image: asset-url("concert.jpeg");
+  background-image: asset-url("live_music.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +66,7 @@ img {
 }
 
 tr:hover {
-  background: #777580;
+  background: #DADADA;
 }
 
 #search_button {
@@ -117,7 +121,7 @@ button.btn-default {
 }
 
 .welcome_flash, .errors ul {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Francois One, Charcoal, sans-serif;
   background-color: #777580;
   font-size: 150%;
   min-width: 100%;
@@ -175,7 +179,8 @@ input[type=checkbox] {
 }
 
 #twitter_widget {
-  margin-top: 5%
+  margin-top: 9em;
+  padding-right: 6em;
 }
 
 .no-left-padding {
@@ -185,10 +190,10 @@ input[type=checkbox] {
 }
 
 header {
-  background-color: #1B1829;
+  background-color: #000000;
 }
 
-#header_title {
+.header_title {
   font-family: Francois One, Charcoal, sans-serif;
 }
 
