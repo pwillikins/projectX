@@ -1831,6 +1831,7 @@ output {
 
 .form-control {
     display: table-row;
+    text-align: center;
     width: 55%;
     height: 34px;
     padding: 6px 12px;

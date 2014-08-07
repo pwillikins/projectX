@@ -2,8 +2,7 @@
 <% if logged_in? %>
 
   <div class="row">
-    <div class="col-xs-6 col-md-4"></div>
-    <div class="col-xs-6 col-md-4">
+    <div class="col-xs-6">
       <form class="form_display" action="/gigs" method="get">
         <input class="form-control" type="text" name="band_name" placeholder="Enter Band Name">
         <br>
@@ -11,7 +10,7 @@
         </button>
       </form>
     </div>
-    <div id="twitter_widget" class="col-xs-6 col-md-4">
+    <div id="twitter_widget" class="col-xs-6">
       <%= render partial: 'shared/tweets' %>
     </div>
   </div>
