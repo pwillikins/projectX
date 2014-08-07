@@ -1669,7 +1669,7 @@ th {
 }
 
 .table-striped > tbody > tr:nth-child > td {
-    background-color: #f9f9f9
+    background-color: #285e8e;
 }
 
 .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
@@ -5329,6 +5329,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-default > .panel-heading {
     color: #333;
     background-color: #777580;
+    font-family: Francois One, Charcoal, sans-serif;
     color: #ffffff;
     border-color: #ddd
 }
