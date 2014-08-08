@@ -9,11 +9,13 @@
 </head>
 <body>
 <header>
-  <% if logged_in? %>
-    <a href="/index"><h1 class="header_title">Rock Your Vote!</h1></a>
-  <% else %>
-    <a href="/"><h1 class="header_title">Rock Your Vote!</h1></a>
-  <% end %>
+  <div id="header_logo">
+    <% if logged_in? %>
+      <a href="/index"><%= image_tag "/assets/paulLogo2 (1).png" %></a>
+    <% else %>
+      <a href="/"><%= image_tag "/assets/paulLogo2 (1).png" %></a>
+    <% end %>
+  </div>
 
   <ul id="nav">
     <% if logged_in? %>

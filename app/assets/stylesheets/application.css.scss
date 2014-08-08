@@ -48,14 +48,15 @@ ul {
   font-family: Francois One, Charcoal, sans-serif;
   list-style: none;
   margin-right: 25px;
-  margin-top: 36px;
+  margin-top: -5em;
   color: white;
+  font-size: 1.3em;
   li {
     float: right;
   }
 }
 
-img {
+.col-md-6 img {
   width: 20em;
   max-height: 30em;
   display: block;
@@ -192,9 +193,19 @@ input[type=checkbox] {
 
 header {
   background-color: #000000;
+  #header_logo img {
+    height: 9em;
+    width: 9em;
+    float:left;
+    padding-top: 1em
+  }
+  #header_logo {
+    height: 10em
+  }
 }
 
 .header_title {
   font-family: Francois One, Charcoal, sans-serif;
 }
+
 
