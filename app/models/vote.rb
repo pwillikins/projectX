@@ -11,7 +11,7 @@ class Vote < ActiveRecord::Base
   end
 
   def find_songs(gig_id)
-    Vote.where(gig_id: gig_id).group(:song_name).count
+    Vote.where(gig_id: gig_id).group(:song_name).count.sort_by { |vote| vote[1] }.reverse
   end
 
 end

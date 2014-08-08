@@ -8,6 +8,6 @@ describe Vote do
 
   it "can find songs voted for by gig id" do
     vote = Vote.create!(artist_name: "311", song_name: "Down", gig_id: 1234567, gig_display_name: "311 at The Fillmore Auditorium (August 5, 2014)")
-    expect(vote.find_songs(1234567)).to include("Down")
+    expect(vote.find_songs(1234567)).to include(["Down", 1])
   end
 end
