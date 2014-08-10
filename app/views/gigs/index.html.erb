@@ -8,6 +8,9 @@
             <br>
             <%= link_to "Past Shows", votes_for_past_shows_path(artist: @display_name), :style => "color:black", class: "btn btn-default no-left-padding" %>
           </div>
+          <div id="songkick_icon">
+            <a href="http://www.songkick.com/search?utf8=%E2%9C%93&type=initial&query=<%= @display_name %>&commit=" target="new"><%= image_tag "SongKickLogo.png" %></a>
+          </div>
         </div>
       </h3>
     </div>

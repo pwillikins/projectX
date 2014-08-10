@@ -19,12 +19,13 @@
 
   <ul id="nav">
     <% if logged_in? %>
-      <li><a id="my_votes_link" href="/votes_for_user">My Votes</a></li>
-      <li>| <%= link_to "Logout", logout_path %> |</li>
-      <li id="user_name"><%= current_user.email %></li>
-      <li><%= link_to "Home", index_path %> |</li>
-    <% else %>
-      <!--<span class="glyphicon glyphicon-filter"></span>-->
+      <li>| <span class="glyphicon glyphicon-log-out"></span><%= link_to "Logout", logout_path %></li>
+      <li><span class="glyphicon glyphicon-th-list"></span> <a id="my_votes_link" href="/votes_for_user">My Votes </a></li>
+      <li id="user_name"><span class="glyphicon glyphicon-user"></span>
+        <%= current_user.email %> |</li>
+      <!--<li><%#= link_to "Home", index_path %> |</li>-->
+      <!--<span class="glyphicon glyphicon-home"></span>-->
+  <% else %>
       <li id="login"><%= link_to "Login", new_session_path %></li>
       <li id="register"><%= link_to "Register", new_user_path %> |</li>
     <% end %>

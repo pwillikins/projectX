@@ -30,7 +30,6 @@ body {
   background-size: cover;
 }
 
-
 body.homepage {
   height: 100%;
   background-image: asset-url("live_music.jpeg");
@@ -62,6 +61,7 @@ ul {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-top: .7em;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 
 }
@@ -70,7 +70,8 @@ tr:hover {
   background: #DADADA;
 }
 
-#search_button {
+#loading-search-btn {
+  outline: 0;
   width: 35%;
   display: inline-block;
   margin-bottom: 0;
@@ -117,7 +118,6 @@ button.btn-default {
   user-select: none
 }
 
-
 .welcome_flash {
   clear: both;
 }
@@ -150,26 +150,13 @@ a {
   padding-left: 2px;
 }
 
-.form_styling {
-  color: white;
-  background: transparent;
-  font-size: 1.1em;
-  input {
-    height: 22px;
-    font-size: 12px;
-  }
-  td {
-    padding: 1px;
-  }
-}
-
 .form_display {
   text-align: center;
   margin-top: 12em;
 }
 
 #my_votes_link {
-  padding-left: 6px;
+  padding-right: 6px;
 }
 
 input[type=checkbox] {
@@ -187,7 +174,7 @@ input[type=checkbox] {
 
 .no-left-padding {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-  margin-left: 2em;
+  margin-left: 1em;
   width: 10em
 }
 
@@ -196,7 +183,7 @@ header {
   #header_logo img {
     height: 9em;
     width: 9em;
-    float:left;
+    float: left;
     padding-top: 1em
   }
   #header_logo {
@@ -208,4 +195,11 @@ header {
   font-family: Francois One, Charcoal, sans-serif;
 }
 
-
+#songkick_icon
+img {
+  height: 4em;
+  width: 16em;
+  margin-top: 1.5em;
+  margin-left: 1.6em;
+  border-radius: 4px;
+}
